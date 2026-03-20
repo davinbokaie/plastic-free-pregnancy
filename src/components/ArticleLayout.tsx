@@ -15,7 +15,7 @@ export default function ArticleLayout({ title, children }: ArticleLayoutProps) {
         <div className="max-w-guide mx-auto flex items-center justify-between px-5 py-4">
           <Link href="/" className="flex items-center gap-2.5 no-underline">
             <Image src="/logo.png" alt="Plastic-Free Pregnancy" width={21} height={35} className="w-[21px] h-auto" />
-            <span className="font-serif-display text-[15px] text-sage tracking-tight">
+            <span className="font-serif-display text-[18px] text-sage tracking-tight">
               Plastic-Free Pregnancy
             </span>
           </Link>

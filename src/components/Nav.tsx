@@ -14,7 +14,7 @@ export default function Nav({ hasPaid, onUnlock }: NavProps) {
         {/* Logo + Brand */}
         <div className="flex items-center gap-2.5">
           <Image src="/logo.png" alt="Plastic-Free Pregnancy" width={21} height={35} className="w-[21px] h-auto" />
-          <span className="font-serif-display text-[15px] text-sage tracking-tight">
+          <span className="font-serif-display text-[18px] text-sage tracking-tight">
             Plastic-Free Pregnancy
           </span>
         </div>
