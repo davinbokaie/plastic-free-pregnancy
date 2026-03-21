@@ -7,7 +7,7 @@ export default function Hero() {
         <span className="text-sage">Plastic-Free.</span>
       </h1>
       <p className="font-body text-[16px] sm:text-[17px] text-txt-secondary leading-relaxed max-w-[420px] mx-auto">
-        50+ categories of researched picks — from pregnancy through baby&apos;s first year. Natural materials, verified certifications, and nothing sponsored.
+        Natural materials for your newborn. Save time with our researched picks. Ensure everything you&apos;ll buy from pregnancy through year one deserves its place in your home.
       </p>
     </section>
   );
