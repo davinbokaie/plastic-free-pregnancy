@@ -9,7 +9,6 @@ interface CategoryCardProps {
 }
 
 export default function CategoryCard({ category, accent }: CategoryCardProps) {
-  const [showWhy, setShowWhy] = useState(false);
   const [showAlts, setShowAlts] = useState(false);
   const hasAlts = category.alternatives.length > 0;
 
@@ -51,21 +50,9 @@ export default function CategoryCard({ category, accent }: CategoryCardProps) {
           </a>
         </div>
 
-        {/* Why this matters toggle */}
-        <button
-          onClick={() => setShowWhy(!showWhy)}
-          className="mt-3 text-[12px] font-semibold text-txt-muted hover:text-txt-secondary transition-colors duration-200 cursor-pointer"
-        >
-          {showWhy ? "▲ Hide" : "▼ Why this matters"}
-        </button>
-
-        {showWhy && (
-          <div className="phase-content mt-2">
-            <p className="font-body text-[14px] text-txt-secondary leading-[1.65] italic">
-              {category.why}
-            </p>
-          </div>
-        )}
+        <p className="font-body text-[14px] italic leading-[1.65] mt-3 text-[#6B6560]">
+          {category.why}
+        </p>
 
         {/* Alternatives toggle */}
         {hasAlts && (
