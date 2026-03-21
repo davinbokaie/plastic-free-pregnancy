@@ -14,7 +14,7 @@ export default function CategoryCard({ category, accent }: CategoryCardProps) {
   const hasAlts = category.alternatives.length > 0;
 
   return (
-    <div className="bg-card rounded-xl border border-border-light overflow-hidden">
+    <div className="bg-transparent rounded-xl overflow-hidden">
       {/* Main card */}
       <div className="p-4 sm:p-5">
         <h4 className="font-serif-display text-[16px] text-txt-primary mb-3">
@@ -24,7 +24,7 @@ export default function CategoryCard({ category, accent }: CategoryCardProps) {
         {/* Top pick */}
         <div
           className="rounded-lg p-3.5 border border-border-faint"
-          style={{ backgroundColor: "#EDEBE6", borderLeft: `3px solid ${accent}` }}
+          style={{ backgroundColor: "#F5F1EB", borderLeft: `3px solid ${accent}` }}
         >
           <div className="flex justify-between items-center mb-1">
             <span className="text-[10px] font-bold uppercase tracking-widest" style={{ color: accent }}>
