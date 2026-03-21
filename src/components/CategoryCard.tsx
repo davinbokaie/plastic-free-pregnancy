@@ -16,9 +16,12 @@ export default function CategoryCard({ category, accent }: CategoryCardProps) {
     <div className="bg-transparent rounded-xl overflow-hidden">
       {/* Main card */}
       <div className="p-4 sm:p-5">
-        <h4 className="font-serif-display text-[16px] text-txt-primary mb-3">
+        <h4 className="font-serif-display text-[16px] text-txt-primary mb-2">
           {category.name}
         </h4>
+        <p className="font-body text-[14px] leading-[1.55] mb-3 text-[#8B7E72]">
+          {category.why}
+        </p>
 
         {/* Top pick */}
         <div
@@ -49,10 +52,6 @@ export default function CategoryCard({ category, accent }: CategoryCardProps) {
             View product →
           </a>
         </div>
-
-        <p className="font-body text-[14px] italic leading-[1.65] mt-3 text-[#6B6560]">
-          {category.why}
-        </p>
 
         {/* Alternatives toggle */}
         {hasAlts && (
