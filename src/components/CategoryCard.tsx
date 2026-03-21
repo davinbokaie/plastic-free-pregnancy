@@ -72,32 +72,32 @@ export default function CategoryCard({ category, accent }: CategoryCardProps) {
             </button>
 
             {showAlts && (
-              <div className="phase-content mt-3 flex flex-col gap-2">
+              <div className="phase-content mt-3 flex flex-row flex-wrap gap-2">
                 {category.alternatives.map((alt, i) => (
-                  <div key={i} className="p-3 bg-card-inner rounded-lg border border-border-faint">
-                    <div className="flex justify-between items-start">
-                      <div className="flex-1">
-                        <div className="flex items-center gap-2 mb-1">
-                          <span
-                            className="text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded"
-                            style={{ backgroundColor: `${accent}15`, color: accent }}
-                          >
-                            {alt.label}
-                          </span>
-                        </div>
-                        <p className="text-[14px] font-semibold text-txt-primary">{alt.name}</p>
-                        <p className="font-body text-[13px] text-txt-muted mt-0.5">{alt.note}</p>
+                  <div
+                    key={i}
+                    className="flex-1 min-w-[200px] rounded-lg p-3 border border-border-faint"
+                    style={{ backgroundColor: "#F5F1EB", borderLeft: `3px solid ${accent}` }}
+                  >
+                    <div className="flex justify-between items-start gap-2">
+                      <div className="flex-1 min-w-0">
+                        <p className="text-[13px] font-semibold text-txt-primary leading-tight">
+                          {alt.name}
+                        </p>
+                        <p className="font-body text-[12px] text-txt-muted mt-0.5 leading-snug">
+                          {alt.note}
+                        </p>
                         <a
                           href={alt.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-block mt-1.5 text-[11px] font-semibold transition-colors duration-200"
+                          className="inline-block mt-1.5 text-[12px] font-semibold transition-colors duration-200"
                           style={{ color: accent, borderBottom: `1px solid ${accent}40` }}
                         >
                           View product →
                         </a>
                       </div>
-                      <span className="text-[13px] font-semibold text-txt-muted whitespace-nowrap ml-3">
+                      <span className="text-[12px] font-semibold text-txt-muted whitespace-nowrap shrink-0">
                         {alt.price}
                       </span>
                     </div>
