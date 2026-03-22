@@ -185,7 +185,7 @@ function CoverPage({ onStart }: { onStart: () => void }) {
         }}
       >
         <Link
-          href="/"
+          href="/?paid=true"
           style={{
             fontSize: 18,
             fontWeight: 400,
@@ -385,7 +385,7 @@ function CategoryPage({
         }}
       >
         <Link
-          href="/"
+          href="/?paid=true"
           style={{
             background: "none",
             border: "none",

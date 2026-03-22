@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 
 interface NavProps {
   hasPaid: boolean;
@@ -21,7 +22,14 @@ export default function Nav({ hasPaid, onUnlock }: NavProps) {
 
         {/* CTA */}
         <div className="flex items-center">
-          {!hasPaid && (
+          {hasPaid ? (
+            <Link
+              href="/companion"
+              className="font-ui text-[13px] font-semibold text-white bg-sage py-2 px-5 rounded-lg transition-colors duration-200 hover:bg-sage-dark no-underline inline-flex items-center"
+            >
+              Shopping Cart Companion
+            </Link>
+          ) : (
             <button
               onClick={onUnlock}
               className="font-serif-display text-[14px] text-white bg-sage px-5 py-2 rounded-lg transition-all duration-200 hover:bg-sage-dark"

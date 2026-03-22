@@ -1,7 +1,6 @@
 "use client";
 
-import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { PHASES } from "@/data/phases";
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
@@ -14,6 +13,13 @@ import Footer from "@/components/Footer";
 export default function Home() {
   const [hasPaid, setHasPaid] = useState(false);
   const [openPhase, setOpenPhase] = useState<string | null>("phase1");
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("paid") === "true") {
+      setHasPaid(true);
+    }
+  }, []);
 
   const handleUnlock = () => {
     // TODO: Redirect to Lemon Squeezy checkout
@@ -36,23 +42,9 @@ export default function Home() {
         </>
       )}
 
-      {/* Paid: Companion + full guide */}
+      {/* Paid: Full guide */}
       {hasPaid && (
         <div className="max-w-guide mx-auto px-5">
-          <Link
-            href="/companion"
-            className="block rounded-xl bg-sage p-6 mb-8 no-underline text-white shadow-sm transition-shadow hover:shadow-md hover:bg-sage-dark"
-          >
-            <h2 className="font-serif-display text-[22px] sm:text-[24px] mb-2 tracking-tight text-white">
-              Shopping Cart Companion
-            </h2>
-            <p className="font-ui text-[15px] text-white/95 mb-4 leading-snug">
-              Your in-store guide to plastic-free shopping
-            </p>
-            <span className="font-ui text-[14px] font-semibold inline-flex items-center gap-1 text-white">
-              Open Companion →
-            </span>
-          </Link>
           {PHASES.map((phase) => (
             <PhaseTile
               key={phase.id}
