@@ -5,9 +5,10 @@ import Footer from "./Footer";
 interface ArticleLayoutProps {
   title: string;
   children: React.ReactNode;
+  showSourcesNote?: boolean;
 }
 
-export default function ArticleLayout({ title, children }: ArticleLayoutProps) {
+export default function ArticleLayout({ title, children, showSourcesNote = true }: ArticleLayoutProps) {
   return (
     <div className="min-h-screen">
       {/* Nav */}
@@ -41,11 +42,13 @@ export default function ArticleLayout({ title, children }: ArticleLayoutProps) {
         </div>
 
         {/* Sources note */}
-        <div className="mt-12 pt-6 border-t border-border-light">
-          <p className="font-body text-[13px] text-txt-faint leading-[1.6]">
-            All claims in this article are sourced from peer-reviewed research, government agencies, and established scientific institutions. Sources are listed at the end of the article.
-          </p>
-        </div>
+        {showSourcesNote && (
+          <div className="mt-12 pt-6 border-t border-border-light">
+            <p className="font-body text-[13px] text-txt-faint leading-[1.6]">
+              All claims in this article are sourced from peer-reviewed research, government agencies, and established scientific institutions. Sources are listed at the end of the article.
+            </p>
+          </div>
+        )}
       </article>
 
       <Footer />

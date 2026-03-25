@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ARTICLES } from "@/data/articles";
 
 export default function ArticlesSection() {
@@ -23,10 +24,21 @@ export default function ArticlesSection() {
             href={`/${article.slug}`}
             className="block min-w-[220px] max-w-[240px] flex-shrink-0 snap-center sm:min-w-0 sm:max-w-none sm:w-full sm:flex-shrink-0 sm:snap-none bg-card rounded-xl border border-border-light overflow-hidden transition-shadow duration-200 hover:shadow-md group"
           >
-            {/* Placeholder image */}
-            <div className="aspect-square bg-card-inner flex items-center justify-center">
-              <span className="text-[40px] opacity-30">📄</span>
-            </div>
+            {article.slug === "microplastics-101" ? (
+              <div className="aspect-square overflow-hidden bg-card-inner">
+                <Image
+                  src="/article-microplastics.jpg"
+                  alt="Microplastics 101"
+                  width={400}
+                  height={400}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            ) : (
+              <div className="aspect-square bg-card-inner flex items-center justify-center">
+                <span className="text-[40px] opacity-30">📄</span>
+              </div>
+            )}
             <div className="p-4">
               <h3 className="font-serif-display text-[15px] text-txt-primary mb-1 group-hover:text-sage transition-colors duration-200">
                 {article.title}
