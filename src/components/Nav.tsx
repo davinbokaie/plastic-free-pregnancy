@@ -25,9 +25,12 @@ export default function Nav({ hasPaid }: NavProps) {
           {hasPaid ? (
             <Link
               href="/companion"
-              className="font-ui text-[13px] font-semibold text-white bg-sage py-2 px-5 rounded-lg transition-colors duration-200 hover:bg-sage-dark no-underline inline-flex items-center"
+              className="font-ui text-[13px] font-semibold text-white bg-sage py-2 px-3 sm:px-5 rounded-lg transition-colors duration-200 hover:bg-sage-dark no-underline inline-flex items-center"
             >
-              Shopping Cart Companion
+              <span className="sm:hidden" role="img" aria-label="Shopping cart">
+                🛒
+              </span>
+              <span className="hidden sm:inline">Shopping Cart Companion</span>
             </Link>
           ) : (
             <button

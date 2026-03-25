@@ -12,7 +12,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   const [hasPaid, setHasPaid] = useState(false);
-  const [openPhase, setOpenPhase] = useState<string | null>("phase1");
+  const [openPhase, setOpenPhase] = useState<string | null>(null);
   const [licenseKey, setLicenseKey] = useState("");
   const [licenseError, setLicenseError] = useState(false);
   const [licenseSubmitting, setLicenseSubmitting] = useState(false);
