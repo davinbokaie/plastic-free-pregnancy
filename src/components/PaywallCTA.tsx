@@ -1,8 +1,6 @@
 "use client";
 
-interface PaywallCTAProps {
-  onUnlock: () => void;
-}
+import { PAYHIP_CHECKOUT_URL } from "@/lib/checkout";
 
 const ITEMS = [
   { title: "The Guide", desc: "50+ product categories. The best plastic-free products on the market. One best-in-class pick + curated alternatives." },
@@ -11,7 +9,7 @@ const ITEMS = [
   { title: "Founding Membership", desc: "First access to a private community of mothers making the same choices." },
 ];
 
-export default function PaywallCTA({ onUnlock }: PaywallCTAProps) {
+export default function PaywallCTA() {
   return (
     <div className="bg-paywall rounded-2xl text-center px-6 sm:px-8 py-11 mb-12 max-w-guide mx-auto">
       <h2 className="font-serif-display text-[22px] sm:text-[24px] text-txt-primary tracking-tight leading-[1.25] mb-7">
@@ -38,7 +36,10 @@ export default function PaywallCTA({ onUnlock }: PaywallCTAProps) {
       </p>
 
       <button
-        onClick={onUnlock}
+        type="button"
+        onClick={() => {
+          window.location.href = PAYHIP_CHECKOUT_URL;
+        }}
         onMouseEnter={(e) => {
           e.currentTarget.style.transform = "scale(1.04)";
           e.currentTarget.style.boxShadow = "0 6px 28px rgba(61, 53, 48, 0.35)";

@@ -2,13 +2,13 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { PAYHIP_CHECKOUT_URL } from "@/lib/checkout";
 
 interface NavProps {
   hasPaid: boolean;
-  onUnlock: () => void;
 }
 
-export default function Nav({ hasPaid, onUnlock }: NavProps) {
+export default function Nav({ hasPaid }: NavProps) {
   return (
     <nav className="nav-frosted sticky top-0 z-50 border-b border-border-light">
       <div className="max-w-guide mx-auto flex items-center justify-between px-5 py-4">
@@ -31,7 +31,10 @@ export default function Nav({ hasPaid, onUnlock }: NavProps) {
             </Link>
           ) : (
             <button
-              onClick={onUnlock}
+              type="button"
+              onClick={() => {
+                window.location.href = PAYHIP_CHECKOUT_URL;
+              }}
               className="font-serif-display text-[14px] text-white bg-sage px-5 py-2 rounded-lg transition-all duration-200 hover:bg-sage-dark"
             >
               Get the Guide
