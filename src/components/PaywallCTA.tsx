@@ -13,9 +13,12 @@ export default function PaywallCTA() {
   return (
     <div className="bg-paywall rounded-2xl text-center px-5 py-8 sm:px-8 sm:py-11 mb-12 max-w-guide mx-auto">
       <h2 className="font-serif-display text-[22px] sm:text-[24px] text-txt-primary tracking-tight leading-[1.25] mb-7">
-        The Plastic-Free Pregnancy Guide —
-        <br />
-        and everything that comes with it.
+        <span className="block sm:hidden">The Plastic-Free Pregnancy Guide</span>
+        <span className="hidden sm:block">
+          The Plastic-Free Pregnancy Guide —
+          <br />
+          and everything that comes with it.
+        </span>
       </h2>
 
       <div className="flex flex-col gap-[18px] max-w-[440px] mx-auto mb-7 text-left">
