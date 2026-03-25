@@ -199,17 +199,18 @@ function CoverPage({ onStart }: { onStart: () => void }) {
         >
           Plastic-Free Pregnancy
         </Link>
-        <span
+        <Link
+          href="/?paid=true"
           style={{
             fontSize: 13,
-            fontWeight: 700,
-            letterSpacing: "0.08em",
-            textTransform: "uppercase",
-            color: "#1A1A1A",
+            fontWeight: 600,
+            color: "#7B8F6B",
+            textDecoration: "none",
+            fontFamily: "'Nunito', sans-serif",
           }}
         >
-          Shopping Cart Companion
-        </span>
+          ← Back to Guide
+        </Link>
       </nav>
 
       {/* Main content centered */}
