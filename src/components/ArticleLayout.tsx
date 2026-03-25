@@ -6,9 +6,16 @@ interface ArticleLayoutProps {
   title: string;
   children: React.ReactNode;
   showSourcesNote?: boolean;
+  /** When false, the page title heading is omitted (e.g. imported HTML includes its own). */
+  showTitle?: boolean;
 }
 
-export default function ArticleLayout({ title, children, showSourcesNote = true }: ArticleLayoutProps) {
+export default function ArticleLayout({
+  title,
+  children,
+  showSourcesNote = true,
+  showTitle = true,
+}: ArticleLayoutProps) {
   return (
     <div className="min-h-screen">
       {/* Nav */}
@@ -34,9 +41,11 @@ export default function ArticleLayout({ title, children, showSourcesNote = true 
         <Link href="/" className="text-[13px] font-semibold text-sage no-underline hover:underline mb-6 inline-block">
           ← Back to guide
         </Link>
-        <h1 className="font-serif-display text-[30px] sm:text-[36px] text-txt-primary tracking-tight leading-[1.15] mb-8">
-          {title}
-        </h1>
+        {showTitle && (
+          <h1 className="font-serif-display text-[30px] sm:text-[36px] text-txt-primary tracking-tight leading-[1.15] mb-8">
+            {title}
+          </h1>
+        )}
         <div className="article-content">
           {children}
         </div>
