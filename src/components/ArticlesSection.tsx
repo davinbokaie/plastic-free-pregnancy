@@ -24,11 +24,11 @@ export default function ArticlesSection() {
             href={`/${article.slug}`}
             className="block min-w-[220px] max-w-[240px] flex-shrink-0 snap-center sm:min-w-0 sm:max-w-none sm:w-full sm:flex-shrink-0 sm:snap-none bg-card rounded-xl border border-border-light overflow-hidden transition-shadow duration-200 hover:shadow-md group"
           >
-            {article.slug === "microplastics-101" ? (
+            {article.slug === "microplastics-101" || article.slug === "bpa-free" ? (
               <div className="aspect-square overflow-hidden bg-card-inner">
                 <Image
-                  src="/article-microplastics.jpg"
-                  alt="Microplastics 101"
+                  src={article.slug === "microplastics-101" ? "/article-microplastics.jpg" : "/article-bpa-free.jpg"}
+                  alt={article.title}
                   width={400}
                   height={400}
                   className="w-full h-full object-cover"
