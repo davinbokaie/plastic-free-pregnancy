@@ -11,7 +11,7 @@ export default function Ticker() {
         {doubled.map((card, i) => (
           <div
             key={i}
-            className="w-[170px] sm:w-[190px] flex-shrink-0 rounded-xl overflow-hidden border border-border-light"
+            className="w-[150px] sm:w-[190px] flex-shrink-0 rounded-xl overflow-hidden border border-border-light"
             style={{ backgroundColor: "#F5F1EB" }}
           >
             {/* Phase header */}
@@ -24,11 +24,11 @@ export default function Ticker() {
               </span>
             </div>
             {/* Card body */}
-            <div className="px-3 py-3">
-              <p className="text-[11px] font-bold text-txt-muted tracking-wide uppercase mb-1">
+            <div className="px-[10px] py-2 sm:px-3 sm:py-3">
+              <p className="text-[10px] sm:text-[11px] font-bold text-txt-muted tracking-wide uppercase mb-1">
                 {card.category}
               </p>
-              <p className="text-[13px] font-semibold text-txt-primary leading-tight mb-2">
+              <p className="text-[12px] sm:text-[13px] font-semibold text-txt-primary leading-tight mb-2">
                 {card.product}
               </p>
               <span className="text-[12px] font-bold text-txt-muted tracking-wide">

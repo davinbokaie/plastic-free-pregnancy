@@ -80,7 +80,10 @@ export default function Home() {
                 <div className="flex-1 h-px bg-border-light" />
               </div>
 
-              <form onSubmit={handleLicenseSubmit} className="max-w-[360px] mx-auto">
+              <form
+                onSubmit={handleLicenseSubmit}
+                className="w-full max-w-none sm:max-w-[360px] sm:mx-auto"
+              >
                 <input
                   type="text"
                   value={licenseKey}
@@ -102,7 +105,7 @@ export default function Home() {
                     e.currentTarget.style.transform = "scale(1)";
                     e.currentTarget.style.boxShadow = "0 4px 20px rgba(90, 112, 80, 0.28)";
                   }}
-                  className="font-serif-display text-[16px] text-white bg-sage w-full max-w-[360px] py-4 rounded-xl transition-all duration-200 cursor-pointer mt-3 hover:bg-sage-dark disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:scale-100 disabled:hover:bg-sage"
+                  className="font-serif-display text-[16px] text-white bg-sage w-full py-4 rounded-xl transition-all duration-200 cursor-pointer mt-3 hover:bg-sage-dark disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:scale-100 disabled:hover:bg-sage"
                   style={{ boxShadow: "0 4px 20px rgba(90, 112, 80, 0.28)" }}
                 >
                   {licenseSubmitting ? "Checking…" : "Open Your Guide"}

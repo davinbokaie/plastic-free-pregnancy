@@ -13,13 +13,15 @@ export default function ArticlesSection() {
         <div className="flex-1 h-px bg-border-light" />
       </div>
 
-      {/* Article cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      {/* Article cards — horizontal scroll on mobile, 3-col grid on sm+ */}
+      <div
+        className="flex sm:grid sm:grid-cols-3 gap-3 sm:gap-4 overflow-x-auto sm:overflow-visible snap-x snap-mandatory sm:snap-none [-webkit-overflow-scrolling:touch] scrollbar-hide -mx-5 px-5 sm:mx-0 sm:px-0"
+      >
         {ARTICLES.map((article) => (
           <Link
             key={article.slug}
             href={`/${article.slug}`}
-            className="block bg-card rounded-xl border border-border-light overflow-hidden transition-shadow duration-200 hover:shadow-md group"
+            className="block min-w-[220px] max-w-[240px] flex-shrink-0 snap-center sm:min-w-0 sm:max-w-none sm:w-full sm:flex-shrink-0 sm:snap-none bg-card rounded-xl border border-border-light overflow-hidden transition-shadow duration-200 hover:shadow-md group"
           >
             {/* Placeholder image */}
             <div className="aspect-square bg-card-inner flex items-center justify-center">

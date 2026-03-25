@@ -15,8 +15,8 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Links */}
-        <div className="flex gap-8">
+        {/* Links — stacked on mobile, row on sm+ */}
+        <div className="flex flex-col sm:flex-row gap-8 w-full sm:w-auto">
           <div className="flex flex-col gap-2">
             <span className="text-[10px] font-bold uppercase tracking-widest text-txt-muted mb-1">Learn</span>
             <Link href="/microplastics-101" className="text-[12px] text-txt-faint hover:text-txt-secondary transition-colors no-underline">Microplastics 101</Link>

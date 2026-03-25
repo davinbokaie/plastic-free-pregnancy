@@ -11,7 +11,7 @@ const ITEMS = [
 
 export default function PaywallCTA() {
   return (
-    <div className="bg-paywall rounded-2xl text-center px-6 sm:px-8 py-11 mb-12 max-w-guide mx-auto">
+    <div className="bg-paywall rounded-2xl text-center px-5 py-8 sm:px-8 sm:py-11 mb-12 max-w-guide mx-auto">
       <h2 className="font-serif-display text-[22px] sm:text-[24px] text-txt-primary tracking-tight leading-[1.25] mb-7">
         The Plastic-Free Pregnancy Guide —
         <br />
@@ -48,7 +48,7 @@ export default function PaywallCTA() {
           e.currentTarget.style.transform = "scale(1)";
           e.currentTarget.style.boxShadow = "0 4px 20px rgba(61, 53, 48, 0.2)";
         }}
-        className="font-serif-display text-[18px] text-white bg-dark w-full max-w-[340px] py-4 rounded-xl transition-all duration-200 cursor-pointer"
+        className="font-serif-display text-[18px] text-white bg-dark w-full max-w-none sm:max-w-[340px] mx-auto py-4 rounded-xl transition-all duration-200 cursor-pointer"
         style={{ boxShadow: "0 4px 20px rgba(61, 53, 48, 0.2)" }}
       >
         Unlock Everything
