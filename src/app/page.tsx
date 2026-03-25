@@ -74,11 +74,13 @@ export default function Home() {
             <div className="max-w-guide mx-auto mt-14 mb-16">
               <div className="flex items-center gap-4 mb-8">
                 <div className="flex-1 h-px bg-border-light" />
-                <p className="font-ui text-[14px] text-[#8B7E72] shrink-0">Already purchased?</p>
+                <h2 className="font-serif-display text-[18px] sm:text-[20px] text-txt-primary text-center whitespace-nowrap shrink-0">
+                  Already purchased?
+                </h2>
                 <div className="flex-1 h-px bg-border-light" />
               </div>
 
-              <form onSubmit={handleLicenseSubmit} className="max-w-[440px] mx-auto">
+              <form onSubmit={handleLicenseSubmit} className="max-w-[360px] mx-auto">
                 <input
                   type="text"
                   value={licenseKey}
@@ -94,17 +96,20 @@ export default function Home() {
                   onMouseEnter={(e) => {
                     if (licenseSubmitting) return;
                     e.currentTarget.style.transform = "scale(1.04)";
-                    e.currentTarget.style.boxShadow = "0 6px 28px rgba(61, 53, 48, 0.35)";
+                    e.currentTarget.style.boxShadow = "0 6px 28px rgba(90, 112, 80, 0.4)";
                   }}
                   onMouseLeave={(e) => {
                     e.currentTarget.style.transform = "scale(1)";
-                    e.currentTarget.style.boxShadow = "0 4px 20px rgba(61, 53, 48, 0.2)";
+                    e.currentTarget.style.boxShadow = "0 4px 20px rgba(90, 112, 80, 0.28)";
                   }}
-                  className="font-serif-display text-[16px] text-white bg-dark w-full max-w-[440px] py-4 rounded-xl transition-all duration-200 cursor-pointer mt-3 disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:scale-100"
-                  style={{ boxShadow: "0 4px 20px rgba(61, 53, 48, 0.2)" }}
+                  className="font-serif-display text-[16px] text-white bg-sage w-full max-w-[360px] py-4 rounded-xl transition-all duration-200 cursor-pointer mt-3 hover:bg-sage-dark disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:scale-100 disabled:hover:bg-sage"
+                  style={{ boxShadow: "0 4px 20px rgba(90, 112, 80, 0.28)" }}
                 >
-                  {licenseSubmitting ? "Checking…" : "Access the Guide"}
+                  {licenseSubmitting ? "Checking…" : "Open Your Guide"}
                 </button>
+                <p className="font-ui text-[12px] text-txt-faint text-center mt-3">
+                  Check your email from Payhip for your license key
+                </p>
                 {licenseError && (
                   <p className="font-ui text-[14px] text-[#DC2626] mt-3 text-center">
                     That key doesn&apos;t look right. Please check and try again.
