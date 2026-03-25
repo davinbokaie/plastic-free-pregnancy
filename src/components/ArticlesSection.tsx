@@ -18,16 +18,26 @@ export default function ArticlesSection() {
       <div
         className="flex sm:grid sm:grid-cols-3 gap-3 sm:gap-4 overflow-x-auto sm:overflow-visible snap-x snap-mandatory sm:snap-none [-webkit-overflow-scrolling:touch] scrollbar-hide -mx-5 px-5 sm:mx-0 sm:px-0"
       >
-        {ARTICLES.map((article) => (
+        {ARTICLES.map((article) => {
+          const imageSrc =
+            article.slug === "microplastics-101"
+              ? "/article-microplastics.jpg"
+              : article.slug === "bpa-free"
+                ? "/article-bpa-free.jpg"
+                : article.slug === "tap-water"
+                  ? "/article-tap-water.jpg"
+                  : null;
+
+          return (
           <Link
             key={article.slug}
             href={`/${article.slug}`}
             className="block min-w-[220px] max-w-[240px] flex-shrink-0 snap-center sm:min-w-0 sm:max-w-none sm:w-full sm:flex-shrink-0 sm:snap-none bg-card rounded-xl border border-border-light overflow-hidden transition-shadow duration-200 hover:shadow-md group"
           >
-            {article.slug === "microplastics-101" || article.slug === "bpa-free" ? (
+            {imageSrc ? (
               <div className="aspect-square overflow-hidden bg-card-inner">
                 <Image
-                  src={article.slug === "microplastics-101" ? "/article-microplastics.jpg" : "/article-bpa-free.jpg"}
+                  src={imageSrc}
                   alt={article.title}
                   width={400}
                   height={400}
@@ -48,7 +58,8 @@ export default function ArticlesSection() {
               </p>
             </div>
           </Link>
-        ))}
+          );
+        })}
       </div>
     </section>
   );
