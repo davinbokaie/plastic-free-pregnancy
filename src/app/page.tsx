@@ -127,16 +127,22 @@ export default function Home() {
 
       {/* Paid: Full guide */}
       {hasPaid && (
-        <div className="max-w-guide mx-auto px-5">
-          {PHASES.map((phase) => (
-            <PhaseTile
-              key={phase.id}
-              phase={phase}
-              isOpen={openPhase === phase.id}
-              onToggle={() => setOpenPhase(openPhase === phase.id ? null : phase.id)}
-            />
-          ))}
-        </div>
+        <>
+          <p className="font-ui text-[12px] text-[#B8A99A] text-center max-w-[480px] mx-auto pb-4 px-5">
+            This guide contains affiliate links. If you buy through them, we may earn a small commission at no
+            cost to you. This never influences our picks.
+          </p>
+          <div className="max-w-guide mx-auto px-5">
+            {PHASES.map((phase) => (
+              <PhaseTile
+                key={phase.id}
+                phase={phase}
+                isOpen={openPhase === phase.id}
+                onToggle={() => setOpenPhase(openPhase === phase.id ? null : phase.id)}
+              />
+            ))}
+          </div>
+        </>
       )}
 
       {/* Articles section - visible to everyone */}
