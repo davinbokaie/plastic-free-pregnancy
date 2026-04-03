@@ -6,12 +6,8 @@ export default function Footer() {
       <div className="flex flex-col sm:flex-row justify-between items-start gap-6 mb-6">
         {/* Brand */}
         <div>
-          <p className="font-serif-display text-[14px] text-sage mb-1">
+          <p className="font-serif-display text-[14px] text-sage">
             Plastic-Free Pregnancy
-          </p>
-          <p className="font-body text-[12px] text-txt-faint leading-[1.5]">
-            Every recommendation independently<br />
-            researched and verified.
           </p>
         </div>
 
