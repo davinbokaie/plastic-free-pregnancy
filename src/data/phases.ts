@@ -91,22 +91,21 @@ export const PHASES: Phase[] = [
       { name: "Sleep & Nursery", categories: [
         { name: "Crib Mattress",
           why: "Your baby spends more time on their mattress than anywhere else — and most mattresses are petroleum-based foam covered in synthetic fabric.",
-          topPick: { name: "KATU Organic Latex & Coconut Crib Mattress", price: "$359", oneLiner: "100% natural latex and coconut fiber. No foam, no synthetics — just a clean surface for the place your baby will spend most of their time.", url: "https://amazon.com/dp/B0CQJRST1T" },
+          topPick: { name: "Avocado Crib Mattress", price: "$359", oneLiner: "If you prefer cotton over latex on the surface. Same clean materials, different feel.", url: "https://amzn.to/4sJBJi6" },
           alternatives: [
-            { label: "premium", name: "Savvy Baby Talalay Latex Mattress", price: "$749", note: "If budget allows, this is the gold standard. Talalay latex — softer, more consistent.", url: "https://savvyrest.com/product/the-savvy-baby-talalay/" },
-            { label: "also good", name: "Avocado Crib Mattress", price: "$359", note: "If you prefer cotton over latex on the surface. Same clean materials, different feel.", url: "https://amazon.com/dp/B0DXPDLDBL" }
+            { label: "premium", name: "Savvy Baby Talalay Latex Mattress", price: "$749", note: "If budget allows, this is the gold standard. Talalay latex — softer, more consistent.", url: "https://savvyrest.com/product/the-savvy-baby-talalay/" }
           ]
         },
         { name: "Crib Bedding",
           why: "One of the easiest and most impactful changes on the list. Organic cotton sheets complete the plastic-free sleep surface.",
-          topPick: { name: "Newton Baby Organic Fitted Crib Sheet", price: "$40", oneLiner: "100% organic muslin cotton. Soft, breathable, nothing synthetic against your baby's skin.", url: "https://amazon.com/dp/B0BLH1C5V1" },
+          topPick: { name: "Newton Baby Organic Fitted Crib Sheet", price: "$39", oneLiner: "100% organic muslin cotton. Soft, breathable, nothing synthetic against your baby's skin.", url: "https://amzn.to/4vFJ1Gm" },
           alternatives: [
-            { label: "budget", name: "Burt's Bees Organic Cotton Crib Sheet", price: "$22", note: "GOTS certified organic cotton — the same standard, lower price.", url: "https://amazon.com/dp/B00NZK5G2E" }
+            { label: "budget", name: "Burt's Bees Organic Cotton Crib Sheet", price: "$13.83", note: "GOTS certified organic cotton — the same standard, lower price.", url: "https://amzn.to/3QmBagC" }
           ]
         },
         { name: "Sleepwear & Swaddles",
           why: "Swaddles and sleepwear are against your baby's skin for the longest stretch of every day. Let's make sure it's a natural fiber, not polyester.",
-          topPick: { name: "Aden + Anais Classic Muslin Swaddles (4-pack)", price: "$69", oneLiner: "100% cotton muslin. Breathable, versatile — use it as a swaddle, blanket, nursing cover, and more.", url: "https://amazon.com/dp/B002SW3B0O" },
+          topPick: { name: "Aden + Anais Classic Muslin Swaddles (4-pack)", price: "$69", oneLiner: "100% cotton muslin. Breathable, versatile — use it as a swaddle, blanket, nursing cover, and more.", url: "https://amzn.to/4mMMhf6" },
           alternatives: [
             { label: "also good", name: "Disana Organic Wool Knitted Blanket", price: "$55", note: "The wool option. Naturally warm, naturally breathable.", url: "https://littlespruceorganics.com/disana-organic-wool-knitted-blanket/" },
             { label: "budget", name: "Burt's Bees Organic Newborn Pajamas", price: "$14", note: "Affordable organic cotton sleeper for everyday wear.", url: "https://burtsbeesbaby.com/products/good-night-sky-organic-cotton-sleep-and-play-ice-flow" }
@@ -114,36 +113,36 @@ export const PHASES: Phase[] = [
         },
         { name: "Nursery Furniture",
           why: "Most cribs are compressed wood scraps bound with chemical adhesives that slowly release into the air — especially when new. Solid wood is just wood.",
-          topPick: { name: "Oeuf Classic Modern Crib", price: "$1,090", oneLiner: "Solid birch wood. Adjustable mattress height. Built to last. No synthetic resins.", url: "https://amazon.com/dp/B00M0SPI2U" },
+          topPick: { name: "Oeuf Classic Modern Crib", price: "$1,030", oneLiner: "Solid birch wood. Adjustable mattress height. Built to last. No synthetic resins.", url: "https://amzn.to/4ego4vx" },
           alternatives: [
-            { label: "budget", name: "Carter's DaVinci Colby 4-in-1 Crib", price: "$279", note: "Solid pine, GREENGUARD Gold certified. Our favorite budget pick.", url: "https://amazon.com/dp/B07WKM74Q9" }
+            { label: "budget", name: "Carter's DaVinci Colby 4-in-1 Crib", price: "$249", note: "Solid pine, GREENGUARD Gold certified. Our favorite budget pick.", url: "https://amzn.to/4vBIPYA" }
           ]
         }
       ]},
       { name: "Feeding", categories: [
         { name: "Baby Bottles",
           why: "Warming a plastic bottle releases microplastic particles straight into your baby's milk — and we warm bottles at every single feeding.",
-          topPick: { name: "Philips Avent Natural Glass Baby Bottles", price: "$48", oneLiner: "Borosilicate glass, wide-neck, easy to clean. No plastic in contact with your baby's milk.", url: "https://amazon.com/dp/B098Z6HYGV" },
+          topPick: { name: "Philips Avent Natural Glass Baby Bottles", price: "$54", oneLiner: "Borosilicate glass, wide-neck, easy to clean. No plastic in contact with your baby's milk.", url: "https://amzn.to/4mI57Uz" },
           alternatives: [
-            { label: "also good", name: "NUK Simply Natural Glass Bottle", price: "$23", note: "Glass body with an orthodontic nipple shape. Good for babies who need it.", url: "https://amazon.com/dp/B07YMF6F2V" },
-            { label: "also good", name: "Dr. Brown's Anti-Colic Wide-Neck Glass", price: "$32", note: "For babies with gas. Internal vent system, wide-neck glass.", url: "https://amazon.com/dp/B07M6QQP9Z" }
+            { label: "also good", name: "NUK Simply Natural Glass Bottle", price: "$23", note: "Glass body with an orthodontic nipple shape. Good for babies who need it.", url: "https://amzn.to/4sLlfWL" },
+            { label: "also good", name: "Dr. Brown's Anti-Colic Wide-Neck Glass", price: "$28", note: "For babies with gas. Internal vent system, wide-neck glass.", url: "https://amzn.to/4tX6EZ5" }
           ]
         },
         { name: "Breast Pump & Milk Storage",
           why: "Everything that touches your breast milk touches your baby. Most standard pump parts are plastic that gets heated during sterilization.",
-          topPick: { name: "Haakaa Silicone Manual Breast Pump", price: "$13", oneLiner: "Medical-grade silicone, one piece, nothing complicated. The simplest way to collect milk without any plastic.", url: "https://amazon.com/dp/B07CWK4S5W" },
+          topPick: { name: "Haakaa Silicone Manual Breast Pump", price: "$13", oneLiner: "Medical-grade silicone, one piece, nothing complicated. The simplest way to collect milk without any plastic.", url: "https://amzn.to/4cuyBAA" },
           alternatives: [
-            { label: "also good", name: "Boon Trove Manual Breast Pump", price: "$13", note: "More discreet design. Silicone body with a softer, more comfortable cup.", url: "https://amazon.com/dp/B0BCSPWQZ9" }
+            { label: "also good", name: "Boon Trove Manual Breast Pump", price: "$17", note: "More discreet design. Silicone body with a softer, more comfortable cup.", url: "https://amzn.to/4tRWmJN" }
           ]
         },
         { name: "Baby Formula",
           why: "This one is about the packaging. Most formulas come in plastic tubs — plastic in direct contact with your baby's food from the moment it's made. Steel is the cleaner choice.",
-          topPick: { name: "Similac Advance Infant Formula 30.8oz", price: "$38.97", oneLiner: "USDA organic, stored in a steel can. No plastic packaging in contact with the formula inside.", url: "https://amazon.com/dp/B00OJ87EHG" },
+          topPick: { name: "Similac Advance Infant Formula 30.8oz", price: "$38.97", oneLiner: "USDA organic, stored in a steel can. No plastic packaging in contact with the formula inside.", url: "https://amzn.to/4tQp8um" },
           alternatives: []
         },
         { name: "Baby Food (Early Solids)",
           why: "Baby food pouches put plastic in direct contact with your baby's food, and your baby squeezes them straight into their mouth. Glass jars are a great home base.",
-          topPick: { name: "Gerber Stage 1 Organic Carrot Jar 10-pack", price: "$12.70–$17.78", oneLiner: "Single-ingredient baby food in a glass jar. No plastic laminate, no pouches — just real food in clean packaging.", url: "https://amazon.com/dp/B0C8SHL5MF" },
+          topPick: { name: "Gerber Stage 1 Organic Carrot Jar 10-pack", price: "$12.70–$17.78", oneLiner: "Single-ingredient baby food in a glass jar. No plastic laminate, no pouches — just real food in clean packaging.", url: "https://amzn.to/4vKXJMq" },
           alternatives: [
             { label: "also good", name: "Beech-Nut Naturals Stage 1 Variety Pack", price: "$19.99", note: "Glass jars across a range of flavors — great for the early stages of introducing solids.", url: "https://marianos.com/p/beech-nut-naturals-stage-1-baby-food-jar-variety-pack-fruit-vegetable/0005220020021" }
           ]
@@ -152,44 +151,44 @@ export const PHASES: Phase[] = [
       { name: "Daily Care", categories: [
         { name: "Pacifiers",
           why: "A pacifier is in your baby's mouth for hours every day. Medical-grade silicone and natural rubber are the only two materials we'd put there.",
-          topPick: { name: "NUK Timeless Comfy Silicone Pacifier", price: "$10", oneLiner: "Medical-grade silicone, orthodontic shape. Supports natural oral development with nothing harmful.", url: "https://amazon.com/dp/B0914D1RQL" },
+          topPick: { name: "NUK Timeless Comfy Silicone Pacifier", price: "$10", oneLiner: "Medical-grade silicone, orthodontic shape. Supports natural oral development with nothing harmful.", url: "https://amzn.to/4vFJiJo" },
           alternatives: [
-            { label: "also good", name: "Bibs Latex Pacifiers", price: "$16", note: "Natural rubber latex. If you prefer latex over silicone — Danish-designed.", url: "https://amazon.com/dp/B0977DBRZP" }
+            { label: "also good", name: "Bibs Latex Pacifiers", price: "$16", note: "Natural rubber latex. If you prefer latex over silicone — Danish-designed.", url: "https://amzn.to/48GR6AA" }
           ]
         },
         { name: "Wipes",
           why: "Most baby wipes are plastic in disguise — polyester and polypropylene nonwoven fabric touching your baby's skin thousands of times.",
-          topPick: { name: "Raan 100% Cotton Baby Wipes", price: "$40", oneLiner: "Pure cotton, no synthetic fibers. No polyester backing, nothing plastic touching your baby's skin.", url: "https://amazon.com/dp/B0F8JL8PJH" },
+          topPick: { name: "Raan 100% Cotton Baby Wipes", price: "$40", oneLiner: "Pure cotton, no synthetic fibers. No polyester backing, nothing plastic touching your baby's skin.", url: "https://amzn.to/4vz34pL" },
           alternatives: []
         },
         { name: "Diapers",
           why: "Diapers are against your baby's skin every hour of every day for years. Most contain synthetic superabsorbent polymers — essentially plastic.",
-          topPick: { name: "HealthyBaby Certified Safe Diapers", price: "$30", oneLiner: "Certified low-synthetic, tested for PFAS, phthalates, and heavy metals. The most rigorously vetted diaper on the market.", url: "https://amazon.com/dp/B0FHKYW52Z" },
+          topPick: { name: "HealthyBaby Certified Safe Diapers", price: "$30", oneLiner: "Certified low-synthetic, tested for PFAS, phthalates, and heavy metals. The most rigorously vetted diaper on the market.", url: "https://amzn.to/4chKQBG" },
           alternatives: [
-            { label: "also good", name: "DYPER Plant-Based Diapers", price: "$20", note: "Bamboo-based and compostable. Lower environmental footprint.", url: "https://amazon.com/dp/B09LN7FC4J" }
+            { label: "also good", name: "DYPER Plant-Based Diapers", price: "$20", note: "Bamboo-based and compostable. Lower environmental footprint.", url: "https://amzn.to/3OL1pgl" }
           ]
         },
         { name: "Changing Pad",
           why: "Standard changing pads are polyurethane foam wrapped in vinyl — your baby lies directly on this for every diaper change.",
           topPick: { name: "Naturepedic Organic Cotton Changing Pad", price: "$139", oneLiner: "Everything a changing pad needs to be, without the materials it doesn't.", url: "https://naturepedic.com/organic-changing-table-pads" },
           alternatives: [
-            { label: "easy fix", name: "Mushie Organic Cotton Liners", price: "$20", note: "Layer over any existing pad to create an organic cotton barrier. Easiest change.", url: "https://amazon.com/dp/B0CYM4SN3Y" }
+            { label: "easy fix", name: "Mushie Organic Cotton Liners", price: "$20", note: "Layer over any existing pad to create an organic cotton barrier. Easiest change.", url: "https://amzn.to/4cSwZln" }
           ]
         }
       ]},
       { name: "Clothing & Carrying", categories: [
         { name: "Baby Carrier / Wrap",
           why: "A carrier puts synthetic fabric against both your skin and your baby's for hours. Cotton and bamboo keep that contact natural.",
-          topPick: { name: "Boba Baby Wrap Carrier", price: "$40", oneLiner: "Soft cotton or bamboo wrap. Nothing synthetic between you and your baby during those first months of skin-to-skin.", url: "https://amazon.com/dp/B005SP2LWW" },
+          topPick: { name: "Boba Baby Wrap Carrier", price: "$40", oneLiner: "Soft cotton or bamboo wrap. Nothing synthetic between you and your baby during those first months of skin-to-skin.", url: "https://amzn.to/3Qj8c1b" },
           alternatives: [
-            { label: "also good", name: "Baby Tula Free-to-Grow Cotton Carrier", price: "$179", note: "If you prefer structure over a wrap. Robust cotton carrier that grows with your baby.", url: "https://amazon.com/dp/B06XK45QHW" }
+            { label: "also good", name: "Baby Tula Free-to-Grow Cotton Carrier", price: "$88", note: "If you prefer structure over a wrap. Robust cotton carrier that grows with your baby.", url: "https://amzn.to/4sOjisC" }
           ]
         },
         { name: "Baby Clothing",
           why: "Baby clothing is against your newborn's skin every hour of every day. Most conventional baby clothes are polyester blends — synthetic fabrics that shed microfibers with every wash. Organic cotton is softer, safer, and better for skin that is more sensitive than it will ever be again.",
-          topPick: { name: "Burt's Bees Baby Organic Cotton Bodysuits (5-pack)", price: "~$25", oneLiner: "100% GOTS certified organic cotton. Five-pack of the only bodysuit your baby needs in the first weeks.", url: "https://amazon.com/dp/B0DPLLL8SY" },
+          topPick: { name: "Burt's Bees Baby Organic Cotton Bodysuits (5-pack)", price: "$30", oneLiner: "100% GOTS certified organic cotton. Five-pack of the only bodysuit your baby needs in the first weeks.", url: "https://amzn.to/4cjWcoN" },
           alternatives: [
-            { label: "budget", name: "HonestBaby Organic Cotton Long Sleeve Bodysuits (3-pack)", price: "$17.50", note: "The budget alternative. Organic cotton, long-sleeve, three to a pack.", url: "https://walmart.com/ip/1047555195" }
+            { label: "budget", name: "Monica + Andy 3-Piece Knit Set", price: "$55", note: "The budget alternative. Organic cotton, long-sleeve, three to a pack.", url: "https://monicaandandy.com/products/baby-3-piece-knit-set" }
           ]
         }
       ]}
@@ -204,31 +203,31 @@ export const PHASES: Phase[] = [
       { name: "", categories: [
         { name: "Nipple Cream / Balm",
           why: "This is one of the most direct transfer points on the entire list. Nipple cream sits on skin your baby feeds from — thankfully, clean natural ingredients are easy to find.",
-          topPick: { name: "Earth Mama Organic Nipple Butter 2oz", price: "$13.97", oneLiner: "Single-ingredient lanolin balm. Safe for baby, healing for you — no need to wipe off before feeding.", url: "https://amazon.com/dp/B000JVCBBG" },
+          topPick: { name: "Earth Mama Organic Nipple Butter 2oz", price: "$13.97", oneLiner: "Single-ingredient lanolin balm. Safe for baby, healing for you — no need to wipe off before feeding.", url: "https://amzn.to/3QxNxq9" },
           alternatives: [
-            { label: "plant-based", name: "Motherlove Nipple Cream 1oz Organic Lanolin-Free", price: "$12.99", note: "If you prefer botanicals over lanolin.", url: "https://amazon.com/dp/B0007CQ726" }
+            { label: "plant-based", name: "Motherlove Nipple Cream 1oz Organic Lanolin-Free", price: "$12.99", note: "If you prefer botanicals over lanolin.", url: "https://amzn.to/3OL2dln" }
           ]
         },
         { name: "Breast Pads",
           why: "Most breast pads are synthetic fabric against skin that is tender, healing, and in near-constant use. Organic cotton keeps that contact as clean and gentle as possible.",
-          topPick: { name: "PureTree Organic Cotton Disposable Nursing Pads 100-pack", price: "$21.99", oneLiner: "Organic cotton, reusable. Gentle against sensitive skin during the most active weeks of breastfeeding.", url: "https://amazon.com/dp/B088KFX87Z" },
+          topPick: { name: "PureTree Organic Cotton Disposable Nursing Pads 100-pack", price: "$21.99", oneLiner: "Organic cotton, reusable. Gentle against sensitive skin during the most active weeks of breastfeeding.", url: "https://amzn.to/4mKlYGq" },
           alternatives: []
         },
         { name: "Nursing Bra",
           why: "A nursing bra is against your skin and your baby's face more than almost anything else you'll wear. It's a tough category to get fully plastic-free, but these two get as close as currently possible.",
-          topPick: { name: "Pact Organic Cotton Maternity Nursing Bralette", price: "$17.50", oneLiner: "95% organic cotton with a touch of elastane for stretch and support. The most practical choice for a bra that needs to work hard every single day.", url: "https://amazon.com/dp/B0DRV2FMSP" },
+          topPick: { name: "CAKYE 3 Piece Nursing Bra", price: "$60", oneLiner: "95% cotton", url: "https://amzn.to/41J2IPT" },
           alternatives: [
             { label: "premium", name: "The Very Good Nursing Bra", price: "$82.00", note: "Pure 100% cotton with no elastane — the closest thing to a fully plastic-free nursing bra.", url: "https://theverygoodbra.com/products/cotton-nursing-bra" }
           ]
         },
         { name: "Postpartum Pads & Underwear",
           why: "Most postpartum pads are synthetic materials against skin that is healing and more permeable than usual. Organic cotton is the gentler, cleaner choice.",
-          topPick: { name: "LOLA 100% Organic Cotton Postpartum Pads 20-count", price: "$10.99", oneLiner: "100% organic cotton. The synthetic-free option for the most sensitive time your body will go through.", url: "https://amazon.com/dp/B0FZDP6TXB" },
+          topPick: { name: "LOLA 100% Organic Cotton Postpartum Pads 20-count", price: "$10.99", oneLiner: "100% organic cotton. The synthetic-free option for the most sensitive time your body will go through.", url: "https://amzn.to/42j2zmg" },
           alternatives: []
         },
         { name: "Postpartum Skincare",
           why: "Your skin is more permeable postpartum than at almost any other time in your life. What you put on it gets absorbed more readily — simple, plant-based ingredients are the only ones worth reaching for.",
-          topPick: { name: "Earth Mama Organic Perineal Balm 2oz", price: "$14.99", oneLiner: "A plant-based herbal balm made specifically for postpartum healing. Nothing synthetic or harsh.", url: "https://amazon.com/dp/B000JVEEZC" },
+          topPick: { name: "Earth Mama Organic Perineal Balm 2oz", price: "$11.69", oneLiner: "A plant-based herbal balm made specifically for postpartum healing. Nothing synthetic or harsh.", url: "https://amzn.to/4dY4Vhz" },
           alternatives: []
         }
       ]}
