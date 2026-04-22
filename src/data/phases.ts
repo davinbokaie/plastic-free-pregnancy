@@ -10,64 +10,63 @@ export const PHASES: Phase[] = [
       { name: "What You Drink", categories: [
         { name: "Water Filtration",
           why: "You're drinking more water now than ever before. It's one of the best things you can do for your body and your baby — so it's worth making sure what you're drinking is clean.",
-          topPick: { name: "AquaTru Classic Countertop RO", price: "$525", oneLiner: "The premium option. Removes microplastics, PFAS, and 82 other contaminants from your tap water.", url: "https://amazon.com/dp/B0F9BZHKYR" },
+          topPick: { name: "Waterdrop 8 Stage Tankless Reverse Osmosis Filter", price: "$429", oneLiner: "The premium option. Removes microplastics, PFAS, and 82 other contaminants from your tap water.", url: "https://amzn.to/48UuYmj" },
           alternatives: [
-            { label: "also good", name: "Waterdrop Under-Sink Filtration", price: "$92", note: "If you want it out of sight. Comparable protection, half the footprint.", url: "https://amazon.com/dp/B0DQ8GRZW7" },
-            { label: "budget", name: "LifeStraw Home Pitcher", price: "$45", note: "Our favorite budget pick.", url: "https://amazon.com/dp/B0BBSL6P2P" }
+            { label: "also good", name: "Waterdrop Under-Sink Filtration", price: "$95", note: "If you want it out of sight. Comparable protection, half the footprint.", url: "https://amzn.to/41NoH8e" },
+            { label: "budget", name: "LifeStraw Home Pitcher", price: "$32", note: "Our favorite budget pick.", url: "https://amzn.to/4sTXV9u" }
           ]
         },
         { name: "Water Bottle",
           why: "Filtering your water then putting it in a plastic bottle puts you right back where you started. This one's an easy upgrade.",
-          topPick: { name: "S'well Roamer (Brushed Stainless)", price: "$32", oneLiner: "Food-grade stainless steel, no interior coating. Keeps water cold, nothing leaching in.", url: "https://amazon.com/dp/B09B2WPK7M" },
+          topPick: { name: "S'well Roamer (Brushed Stainless)", price: "$35", oneLiner: "Food-grade stainless steel, no interior coating. Keeps water cold, nothing leaching in.", url: "https://amzn.to/4cqAMX2" },
           alternatives: [
-            { label: "also good", name: "S'well Traveler (Glass)", price: "$27", note: "True zero-plastic option. Glass body with a protective sleeve — comes in colors.", url: "https://amazon.com/dp/B084GMVQJ4" },
-            { label: "also good", name: "Hydro Flask Standard Mouth", price: "$30+", note: "More sizes and colors. Vacuum-insulated stainless.", url: "https://amazon.com/dp/B07YXMJ5WF" }
+            { label: "also good", name: "S'well Traveler (Glass)", price: "$27", note: "True zero-plastic option. Glass body with a protective sleeve — comes in colors.", url: "https://amzn.to/4vCse6S" },
+            { label: "also good", name: "Hydro Flask Standard Mouth", price: "$30+", note: "More sizes and colors. Vacuum-insulated stainless.", url: "https://amzn.to/4tOLkF6" }
           ]
         },
         { name: "Tea & Coffee Prep",
           why: "Your morning ritual is one of the easiest places for plastic to sneak in. Hot water and plastic are a bad combination — and this is one of the simplest changes on the list.",
-          topPick: { name: "Kalita Wave 185 Pour-Over Dripper", price: "$34", oneLiner: "Stainless steel pour-over. Japanese-made, zero plastic in the brew path.", url: "https://amazon.com/dp/B004W5L1XY" },
+          topPick: { name: "Kalita Wave 185 Pour-Over Dripper", price: "$34", oneLiner: "Stainless steel pour-over. Japanese-made, zero plastic in the brew path.", url: "https://amzn.to/3Qit0WE" },
           alternatives: [
-            { label: "also good", name: "Bodum Chambord French Press", price: "$130", note: "Full glass and steel construction — no plastic in contact with your brew.", url: "https://amazon.com/dp/B00009ADDR" },
-            { label: "for tea", name: "Finum Stainless Steel Brewing Basket", price: "$16", note: "Reusable metal infuser — replaces plastic tea bags entirely.", url: "https://amazon.com/dp/B000J3JFJU" }
+            { label: "for tea", name: "Finum Stainless Steel Brewing Basket", price: "$14", note: "Reusable metal infuser — replaces plastic tea bags entirely.", url: "https://amzn.to/3QaGeEZ" }
           ]
         }
       ]},
       { name: "What You Eat & How You Cook", categories: [
         { name: "Cookware",
           why: "Teflon and non-stick coatings are made from PFAS — chemicals that don't break down in your body or the environment.",
-          topPick: { name: "All-Clad D3 Stainless Steel 10 Piece Cookware Set", price: "$799", oneLiner: "Stainless steel. Professional quality, built for a lifetime. Fully PFAS-free.", url: "https://amazon.com/dp/B005H8KD3E" },
+          topPick: { name: "All-Clad D3 Stainless Steel 10 Piece Cookware Set", price: "$799", oneLiner: "Stainless steel. Professional quality, built for a lifetime. Fully PFAS-free.", url: "https://amzn.to/4sQHyui" },
           alternatives: [
-            { label: "start small", name: "Made In Stainless Steel Frying Pan", price: "$139", note: "Not ready to replace everything? Start with one great everyday pan.", url: "https://amazon.com/dp/B09S158K61" }
+            { label: "start small", name: "Made In Stainless Steel Frying Pan", price: "$139", note: "Not ready to replace everything? Start with one great everyday pan.", url: "https://amzn.to/4u131la" }
           ]
         },
         { name: "Cutting Board",
           why: "Every time you run a knife across a plastic cutting board, it leaves a mark. Those marks are microplastics — going straight into your food.",
-          topPick: { name: "John Boos Maple Wood Block", price: "$185", oneLiner: "Thick, professional-grade maple. The kind of board you buy once and never think about again. NSF certified.", url: "https://amazon.com/dp/B004REGR4S" },
+          topPick: { name: "John Boos Maple Wood Block", price: "$185", oneLiner: "Thick, professional-grade maple. The kind of board you buy once and never think about again. NSF certified.", url: "https://amzn.to/42j0WoE" },
           alternatives: [
-            { label: "also good", name: "JK Adams Maple Board", price: "$49", note: "Same quality maple, lighter and more affordable.", url: "https://amazon.com/dp/B0CWNRTK54" },
-            { label: "also good", name: "John Boos Walnut Board", price: "$150", note: "Darker look, identical quality.", url: "https://amazon.com/dp/B08D9VR4VD" }
+            { label: "also good", name: "JK Adams Maple Board", price: "$49", note: "Same quality maple, lighter and more affordable.", url: "https://amzn.to/4mDV4jp" },
+            { label: "also good", name: "John Boos Walnut Board", price: "$155", note: "Darker look, identical quality.", url: "https://amzn.to/41JJsBG" }
           ]
         },
         { name: "Cooking Utensils",
           why: "Plastic utensils soften and degrade with heat. Black plastic especially — it's often made from recycled electronics.",
-          topPick: { name: "Viking Stainless Steel Utensil Set", price: "$120", oneLiner: "Full stainless steel set. Heat-proof, dishwasher safe, nothing plastic touching your food.", url: "https://amazon.com/dp/B093RPNJZG" },
+          topPick: { name: "Viking Stainless Steel Utensil Set", price: "$120", oneLiner: "Full stainless steel set. Heat-proof, dishwasher safe, nothing plastic touching your food.", url: "https://amzn.to/3OSwPRX" },
           alternatives: [
-            { label: "also good", name: "Wooden Cooking Utensil Set", price: "$54", note: "If you prefer wood. Natural, heat-safe, and beautiful in a kitchen.", url: "https://amazon.com/dp/B0CW3GQBR8" }
+            { label: "also good", name: "Wooden Cooking Utensil Set", price: "$54", note: "If you prefer wood. Natural, heat-safe, and beautiful in a kitchen.", url: "https://amzn.to/4cyFelf" }
           ]
         },
         { name: "Food Storage",
           why: "Heating and storing food in plastic is one of the highest exposure routes — even in containers labeled 'microwave safe.'",
-          topPick: { name: "Vtopmart Glass Food Storage Set", price: "$24", oneLiner: "Airtight glass containers with snap-lock lids. Microwave and dishwasher safe — no plastic touching your food.", url: "https://amazon.com/dp/B0B9S5HZ26" },
+          topPick: { name: "Vtopmart Glass Food Storage Set", price: "$24", oneLiner: "Airtight glass containers with snap-lock lids. Microwave and dishwasher safe — no plastic touching your food.", url: "https://amzn.to/4th8Hr3" },
           alternatives: [
-            { label: "also good", name: "GEEJA Stainless Steel Containers", price: "$37", note: "Prefer stainless? More durable. Great for carrying food out of the house.", url: "https://amazon.com/dp/B0CFV7HQBC" }
+            { label: "also good", name: "GEEJA Stainless Steel Containers", price: "$37", note: "Prefer stainless? More durable. Great for carrying food out of the house.", url: "https://amzn.to/4dY310p" }
           ]
         },
         { name: "Salt",
           why: "Plastic waste in our oceans sneaks into sea salt, and heavy processing adds more exposure — then it all sits in a plastic container. Naturally mined, minimally handled, and stored in glass keeps what lands on your food as clean as possible.",
           topPick: { name: "Himalayan Chef Pink Salt Coarse Large Glass Grinder", price: "$8.39", oneLiner: "Naturally mined, minimally processed, stored in glass. The cleanest version of something you reach for every day.", url: "https://himalayanchef.com/products/tall-pink-salt-refillable-coarse-grinder" },
           alternatives: [
-            { label: "also good", name: "Himalayan Chef Fine Glass Shaker 6-pack", price: "$39.99", note: "If you prefer a shaker with the same clean salt.", url: "https://amazon.com/dp/B0B35H4KVV" }
+            { label: "also good", name: "Himalayan Chef Fine Glass Shaker 6-pack", price: "$39.99", note: "If you prefer a shaker with the same clean salt.", url: "https://amzn.to/41JcPnH" }
           ]
         }
       ]},
@@ -77,7 +76,7 @@ export const PHASES: Phase[] = [
           topPick: { name: "Quince Organic Cotton Maternity Maxi Dress", price: "$70", oneLiner: "100% organic cotton. Comfortable through every trimester — soft, breathable, nothing synthetic against your skin.", url: "https://quince.com/women/100-organic-cotton-maternity-tiered-maxi-dress" },
           alternatives: [
             { label: "also good", name: "Quince European Linen Maternity Top", price: "$50", note: "100% European linen. Breathable, naturally plastic-free.", url: "https://quince.com/women/100-european-linen-maternity-long-sleeve-shirt-2564" },
-            { label: "budget", name: "Pact Organic Cotton Leggings", price: "$30", note: "Affordable organic cotton basics for everyday wear.", url: "https://amazon.com/dp/B01N7QXWJL" }
+            { label: "budget", name: "Joyaria Maternity Leggings", price: "$24.69", note: "Affordable organic cotton basics for everyday wear.", url: "https://amzn.to/4e2GvUk" }
           ]
         }
       ]}
