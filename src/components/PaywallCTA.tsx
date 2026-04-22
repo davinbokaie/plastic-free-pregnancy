@@ -40,7 +40,7 @@ export default function PaywallCTA() {
       <button
         type="button"
         onClick={() => {
-          window.location.href = PAYHIP_CHECKOUT_URL;
+          window.open(PAYHIP_CHECKOUT_URL, "_blank");
         }}
         onMouseEnter={(e) => {
           e.currentTarget.style.transform = "scale(1.04)";

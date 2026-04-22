@@ -34,7 +34,7 @@ export default function Nav({ hasPaid }: NavProps) {
             <button
               type="button"
               onClick={() => {
-                window.location.href = PAYHIP_CHECKOUT_URL;
+                window.open(PAYHIP_CHECKOUT_URL, "_blank");
               }}
               className="font-serif-display text-[14px] text-white bg-sage px-5 py-2 rounded-lg transition-all duration-200 hover:bg-sage-dark"
             >
