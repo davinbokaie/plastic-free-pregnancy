@@ -11,8 +11,7 @@ import ArticlesSection from "@/components/ArticlesSection";
 import Footer from "@/components/Footer";
 
 export default function Home() {
-  // TODO: Change back to false after Amazon Associates approval.
-  const [hasPaid, setHasPaid] = useState(true);
+  const [hasPaid, setHasPaid] = useState(false);
   const [openPhase, setOpenPhase] = useState<string | null>(null);
   const [licenseKey, setLicenseKey] = useState("");
   const [licenseError, setLicenseError] = useState(false);

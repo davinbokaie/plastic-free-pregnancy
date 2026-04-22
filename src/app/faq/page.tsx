@@ -72,7 +72,7 @@ const FAQS: FAQItemProps[] = [
   {
     question: "Do you earn commissions on the products you recommend?",
     answer:
-      "Some links on this site are affiliate links. When you purchase through them, we may earn a small commission at no extra cost to you. This never influences which products we recommend.",
+      "Yes — as an Amazon Associate, we earn from qualifying purchases. Some links on this site are affiliate links. When you purchase through them, we may earn a small commission at no extra cost to you. This never influences which products we recommend.",
   },
   {
     question: "Can I share the guide with someone?",
