@@ -7,7 +7,8 @@ export default function Hero() {
         <span className="text-sage">Plastic-Free.</span>
       </h1>
       <p className="font-body text-[16px] sm:text-[17px] text-[#6B6560] leading-[1.6] max-w-[480px] mx-auto">
-        Natural materials for your newborn. Save time with our researched picks. Ensure everything you&apos;ll buy from pregnancy through year one deserves its place in your home.
+        A researched guide to the best plastic-free products you&apos;ll need from pregnancy through year one. Save
+        time and ensure only natural materials for you and your newborn.
       </p>
     </section>
   );
