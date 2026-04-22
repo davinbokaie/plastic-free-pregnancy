@@ -242,62 +242,62 @@ export const PHASES: Phase[] = [
       { name: "Soothing & Skin", categories: [
         { name: "Baby Wash / Cleanser",
           why: "Most baby washes contain synthetic surfactants and polymer thickeners — essentially liquid plastic — that go directly onto your baby's skin at every bath.",
-          topPick: { name: "Dr. Bronner's Pure-Castile Liquid Soap (Baby Unscented)", price: "$17.17", oneLiner: "Pure plant oil castile soap. Unscented, undiluted, and free of every synthetic ingredient you'd want to avoid.", url: "https://amazon.com/dp/B000HK1OOY" },
+          topPick: { name: "Dr. Bronner's Pure-Castile Liquid Soap (Baby Unscented)", price: "$17.17", oneLiner: "Pure plant oil castile soap. Unscented, undiluted, and free of every synthetic ingredient you'd want to avoid.", url: "https://amzn.to/4vE08ID" },
           alternatives: [
-            { label: "also good", name: "Pipette Baby Shampoo + Wash Fragrance Free", price: "$14.50", note: "Plant-derived surfactants. A gentler lather for babies with sensitive skin.", url: "https://amazon.com/dp/B0GPLVS155" }
+            { label: "also good", name: "Pipette Baby Shampoo + Wash Fragrance Free", price: "$14.50", note: "Plant-derived surfactants. A gentler lather for babies with sensitive skin.", url: "https://amzn.to/4tjAJlQ" }
           ]
         },
         { name: "Sponges & Washcloths",
           why: "Most baby washcloths are polyester microfiber — a plastic fabric that sheds particles with every wash and every use. Cotton is the straightforward alternative.",
-          topPick: { name: "Burt's Bees Baby Infant Washcloths (3-pack)", price: "$9.47", oneLiner: "Pure cotton, nothing else. The simplest thing to wash a newborn with.", url: "https://amazon.com/dp/B081SFF4PD" },
+          topPick: { name: "Burt's Bees Baby Infant Washcloths (3-pack)", price: "$7.46", oneLiner: "Pure cotton, nothing else. The simplest thing to wash a newborn with.", url: "https://amzn.to/3OgRY8h" },
           alternatives: [
-            { label: "also good", name: "Kyte Baby Natural Sea Sponge", price: "$13.99", note: "Exceptionally soft, biodegradable, and completely plastic-free — just needs a little more care between uses.", url: "https://amazon.com/dp/B07NZV9KK3" }
+            { label: "also good", name: "Kyte Baby Natural Sea Sponge", price: "$13.99", note: "Exceptionally soft, biodegradable, and completely plastic-free — just needs a little more care between uses.", url: "https://amzn.to/4sLREMV" }
           ]
         },
         { name: "Diaper Cream",
           why: "This goes on irritated, sensitive skin multiple times a day. Petroleum derivatives and synthetic additives have no place on a diaper rash. Plant-based ingredients do the same job without them.",
-          topPick: { name: "Babo Botanicals Sensitive Baby Diaper Cream", price: "$15.00", oneLiner: "Plant-based diaper cream with 25% natural zinc oxide. Gentle enough for newborn skin, effective enough to create a barrier.", url: "https://amazon.com/dp/B07569JMSZ" },
+          topPick: { name: "Babo Botanicals Sensitive Baby Diaper Cream", price: "$15.00", oneLiner: "Plant-based diaper cream with 25% natural zinc oxide. Gentle enough for newborn skin, effective enough to create a barrier.", url: "https://amzn.to/4vG9zag" },
           alternatives: [
-            { label: "also good", name: "Badger Baby Diaper Rash Cream", price: "$14.99", note: "Natural barrier cream with organic sunflower oil and beeswax.", url: "https://amazon.com/dp/B00C3Q0FFE" }
+            { label: "also good", name: "Badger Baby Diaper Rash Cream", price: "$27", note: "Natural barrier cream with organic sunflower oil and beeswax.", url: "https://amzn.to/4tnIbN1" }
           ]
         },
         { name: "Baby Blankets & Burp Cloths",
           why: "Burp cloths and blankets are in constant contact with your baby's skin and face all day long. Most are polyester blends — natural cotton is the straightforward alternative.",
-          topPick: { name: "Burt's Bees Baby Infant Burp Cloths (5-pack)", price: "$26.95", oneLiner: "100% cotton muslin. Soft, breathable, and versatile enough to use as a blanket, burp cloth, or light swaddle.", url: "https://amazon.com/dp/B00N4PNYRY" },
+          topPick: { name: "Burt's Bees Baby Infant Burp Cloths (5-pack)", price: "$20.21", oneLiner: "100% cotton muslin. Soft, breathable, and versatile enough to use as a blanket, burp cloth, or light swaddle.", url: "https://amzn.to/4cjWr3b" },
           alternatives: [
-            { label: "also good", name: "Comfy Cubs Muslin Burp Cloths (6-pack)", price: "$15.99", note: "6-layer, ultra absorbent 100% cotton.", url: "https://amazon.com/dp/B07NSVTFS3" }
+            { label: "also good", name: "Comfy Cubs Muslin Burp Cloths (6-pack)", price: "$15.99", note: "6-layer, ultra absorbent 100% cotton.", url: "https://amzn.to/4mI6dzF" }
           ]
         },
         { name: "Teethers",
           why: "Pacifiers and teethers are in your baby's mouth for hours at a time. During teething, they're being gnawed on constantly. Food-grade silicone keeps that contact clean.",
-          topPick: { name: "Moonjax Natural Rubber Baby Teething Toys", price: "$14.99", oneLiner: "100% natural rubber teether. Nothing harmful for the thing your baby will chew on constantly.", url: "https://amazon.com/dp/B0BJW9H1XS" },
+          topPick: { name: "Moonjax Natural Rubber Baby Teething Toys", price: "$14.99", oneLiner: "100% natural rubber teether. Nothing harmful for the thing your baby will chew on constantly.", url: "https://amzn.to/48GeyxU" },
           alternatives: [
-            { label: "also good", name: "Comotomo Silicone Baby Teether", price: "$6.29", note: "Soft silicone option. A different shape and feel — good for babies who prefer more give.", url: "https://walmart.com" }
+            { label: "also good", name: "Comotomo Silicone Baby Teether", price: "$6.29", note: "Soft silicone option. A different shape and feel — good for babies who prefer more give.", url: "https://www.walmart.com/ip/Comotomo-Silicone-Baby-Teether-Blue/28941288" }
           ]
         }
       ]},
       { name: "Feeding & Environment", categories: [
         { name: "Nursery Air Quality (HEPA)",
           why: "Your baby breathes nursery air for most of the day. The natural materials you've already chosen mean fewer synthetic fibers in that air — a HEPA filter takes care of the rest.",
-          topPick: { name: "WINIX 5510 Air Purifier", price: "$135.99", oneLiner: "A true HEPA air purifier sized for a nursery. Quietly filters the air where your baby sleeps around the clock.", url: "https://amazon.com/dp/B0DJG1731C" },
+          topPick: { name: "WINIX 5510 Air Purifier", price: "$179", oneLiner: "A true HEPA air purifier sized for a nursery. Quietly filters the air where your baby sleeps around the clock.", url: "https://amzn.to/3QiuY9u" },
           alternatives: [
-            { label: "also good", name: "Coway Airmega AP-1512HH True HEPA Purifier", price: "$154.99", note: "Compact HEPA option with air quality monitoring.", url: "https://amazon.com/dp/B01728NLRG" }
+            { label: "also good", name: "Coway Airmega AP-1512HH True HEPA Purifier", price: "$230", note: "Compact HEPA option with air quality monitoring.", url: "https://amzn.to/4dSUEmQ" }
           ]
         },
         { name: "Baby Food Prep & Storage",
           why: "You're putting care into what your baby eats. The containers and tools should match that — no plastic anywhere in the process.",
-          topPick: { name: "OXO Tot Glass Baby Blocks Food Storage Containers", price: "$21.99", oneLiner: "A complete glass-based system for prepping and storing homemade baby food. Clean from prep to spoon.", url: "https://amazon.com/dp/B079K734JH" },
+          topPick: { name: "OXO Tot Glass Baby Blocks Food Storage Containers", price: "$21.99", oneLiner: "A complete glass-based system for prepping and storing homemade baby food. Clean from prep to spoon.", url: "https://amzn.to/4mY8gQp" },
           alternatives: [
-            { label: "also good", name: "WeeSprout Glass Baby Food Storage Jars (8-pack)", price: "$25.99", note: "If you prefer a different size or shape — still glass.", url: "https://walmart.com" }
+            { label: "also good", name: "WeeSprout Glass Baby Food Storage Jars (8-pack)", price: "$25.99", note: "If you prefer a different size or shape — still glass.", url: "https://www.walmart.com/ip/WeeSprout-Glass-Baby-Food-Storage-Jars-w-Lids-8-oz-8-Pack-Set-Snack-Puree/17189656739" }
           ]
         }
       ]},
       { name: "Bath Time", categories: [
         { name: "Baby Towels",
           why: "The towel is the first thing that touches your baby after a clean bath. Most are synthetic blends — organic cotton is the natural finish to a bath time routine you've already made cleaner.",
-          topPick: { name: "Burt's Bees Baby Infant Hooded Towels", price: "$26.20", oneLiner: "100% organic cotton terry. Soft, absorbent, and nothing synthetic against freshly washed skin.", url: "https://amazon.com/dp/B07FR917ZR" },
+          topPick: { name: "Burt's Bees Baby Infant Hooded Towels", price: "$26.95", oneLiner: "100% organic cotton terry. Soft, absorbent, and nothing synthetic against freshly washed skin.", url: "https://amzn.to/42lTRUg" },
           alternatives: [
-            { label: "also good", name: "Aden + Anais Hooded Towel Set", price: "$24.99", note: "A thicker cotton option if you prefer more weight and coverage.", url: "https://bebeprecious.com" }
+            { label: "also good", name: "Aden + Anais Hooded Towel Set", price: "$24.99", note: "A thicker cotton option if you prefer more weight and coverage.", url: "https://www.bebeprecious.com/hide-and-sea-hooded-towel-set-towel-washcloth-sets-by-aden-and-anais/" }
           ]
         }
       ]}
@@ -312,14 +312,14 @@ export const PHASES: Phase[] = [
       { name: "Play & Floor Time", categories: [
         { name: "Play Mat",
           why: "A play mat is what your baby lies, rolls, and eventually crawls on for hours every day. Most play mats are foam and plastic. Natural materials make that foundation a cleaner one.",
-          topPick: { name: "MakeMake Organics Organic Play Mat", price: "$78–$98", oneLiner: "100% organic cotton play mat. A soft, natural surface for the place your baby will spend most of their floor time.", url: "https://amazon.com/dp/B0B72G8KXM" },
+          topPick: { name: "MakeMake Organics Organic Play Mat", price: "$98", oneLiner: "100% organic cotton play mat. A soft, natural surface for the place your baby will spend most of their floor time.", url: "https://amzn.to/4ezXg9m" },
           alternatives: [
             { label: "also good", name: "Piccalio Play Mat", price: "$189", note: "A different size and shape. Same organic cotton standard.", url: "https://piccalio.com/products/play-mat" }
           ]
         },
         { name: "Toys (0–12 months)",
           why: "Most soft toys are polyester inside and out — essentially two layers of plastic your baby is sleeping with, chewing on, and dragging everywhere. Natural fill and fabric keep the thing your baby loves most clean.",
-          topPick: { name: "Organic Cotton Blue Teddy Bear Plush", price: "$22.49", oneLiner: "Organic cotton stuffed toy. Soft, safe, and the kind of thing that becomes a favorite without a piece of plastic in it.", url: "https://amazon.com" },
+          topPick: { name: "Organic Cotton Blue Teddy Bear Plush", price: "$22.49", oneLiner: "Organic cotton stuffed toy. Soft, safe, and the kind of thing that becomes a favorite without a piece of plastic in it.", url: "https://amzn.to/4mNcQRq" },
           alternatives: [
             { label: "premium", name: "SENGER Animal Baby - Teddy Bear", price: "$63.00", note: "Hand-crafted wool, naturally dyed. The kind of toy that gets kept forever.", url: "https://blossomandpear.com" }
           ]
@@ -333,37 +333,37 @@ export const PHASES: Phase[] = [
         },
         { name: "Bath Toys",
           why: "That cute rubber ducky? Most aren't rubber at all — they're PVC, shedding microplastics directly into your baby's bath water. Solid silicone is the cleaner option.",
-          topPick: { name: "Ubbi Squeeze and Switch Silicone Bath Toys (Set of 3)", price: "$11.49", oneLiner: "Food-grade silicone bath toys. Nothing to trap water, easy to clean.", url: "https://amazon.com/dp/B07BMHVJR9" },
+          topPick: { name: "Ubbi Squeeze and Switch Silicone Bath Toys (Set of 3)", price: "$9.99", oneLiner: "Food-grade silicone bath toys. Nothing to trap water, easy to clean.", url: "https://amzn.to/3QB4FLH" },
           alternatives: [
-            { label: "also good", name: "Haakaa Dinky Splash Duck Silicone Bath Toy", price: "$21.99", note: "A silicone take on the classic rubber duck. Same iconic shape, completely plastic-free.", url: "https://amazon.com" }
+            { label: "also good", name: "Haakaa Dinky Splash Duck Silicone Bath Toy", price: "$21.99", note: "A silicone take on the classic rubber duck. Same iconic shape, completely plastic-free.", url: "https://amzn.to/3QmjYb7" }
           ]
         }
       ]},
       { name: "Meal Time", categories: [
         { name: "Baby Utensils",
           why: "Baby utensils go directly into your baby's mouth at every meal — stainless steel options are widely available, affordable, and one of the simplest changes on the list.",
-          topPick: { name: "Avanchy Infant Baby Spoons Stainless Steel and Silicone Set", price: "$13.99", oneLiner: "Food-grade stainless steel with a soft silicone handle for easy gripping. Safe for early self-feeding.", url: "https://amazon.com/dp/B07K1DRL35" },
+          topPick: { name: "Avanchy Infant Baby Spoons Stainless Steel and Silicone Set", price: "$13.99", oneLiner: "Food-grade stainless steel with a soft silicone handle for easy gripping. Safe for early self-feeding.", url: "https://amzn.to/4cX5IOQ" },
           alternatives: [
-            { label: "also good", name: "PandaEar Baby Toddler Fork and Spoon Set (6-pack)", price: "$7.78", note: "Smaller stainless steel heads with a silicone handle — easier for little hands.", url: "https://amazon.com/dp/B0CDH2Y17Q" }
+            { label: "also good", name: "PandaEar Baby Toddler Fork and Spoon Set (6-pack)", price: "$7.78", note: "Smaller stainless steel heads with a silicone handle — easier for little hands.", url: "https://amzn.to/4ezk21a" }
           ]
         },
         { name: "Sippy Cups",
           why: "Most sippy cups have plastic — and they go everywhere with your baby, get dropped, chewed on, and filled multiple times a day. Stainless steel and silicone are the straightforward upgrades.",
-          topPick: { name: "Pura Kiki Stainless Steel Insulated Sippy Bottle", price: "$29.98", oneLiner: "Stainless steel sippy cup with a padded sleeve. Keeps drinks cold, nothing leaching in, built to survive being thrown.", url: "https://amazon.com/dp/B01JMZ4X1A" },
+          topPick: { name: "Pura Kiki Stainless Steel Insulated Sippy Bottle", price: "$39.98", oneLiner: "Stainless steel sippy cup with a padded sleeve. Keeps drinks cold, nothing leaching in, built to survive being thrown.", url: "https://amzn.to/4tXAmxb" },
           alternatives: [
-            { label: "also good", name: "Mushie 100% Silicone Training Cup & Straw", price: "$16.99", note: "Softer and more flexible for babies who are still getting the hang of it.", url: "https://amazon.com/dp/B09RSCGHTQ" }
+            { label: "also good", name: "Mushie 100% Silicone Training Cup & Straw", price: "$16.99", note: "Softer and more flexible for babies who are still getting the hang of it.", url: "https://amzn.to/3QlMmdw" }
           ]
         },
         { name: "Baby Bib",
           why: "A bib is one of those things you buy without thinking about it. Most are synthetic fabric against your baby's skin at every meal. Organic cotton is the easy upgrade.",
-          topPick: { name: "Burt's Bees Baby Organic Baby Bibs", price: "$29.95", oneLiner: "100% organic cotton bib. Soft against your baby's chin and chest for every meal.", url: "https://amazon.com/dp/B0DPJKY3XP" },
+          topPick: { name: "Burt's Bees Baby Organic Baby Bibs", price: "$22.46", oneLiner: "100% organic cotton bib. Soft against your baby's chin and chest for every meal.", url: "https://amzn.to/4vGQF39" },
           alternatives: [
-            { label: "also good", name: "Green Sprouts Muslin Bibs (5-count)", price: "$21.99", note: "For heavy droolers. 4 absorbent layers, 100% organic cotton muslin.", url: "https://amazon.com/dp/B01ABQBI6W" }
+            { label: "also good", name: "Green Sprouts Muslin Bibs (5-count)", price: "$21.99", note: "For heavy droolers. 4 absorbent layers, 100% organic cotton muslin.", url: "https://amzn.to/4tlpwBd" }
           ]
         },
         { name: "High Chair",
           why: "High chairs are one of the trickiest categories. The tray is the problem — every high chair on the market has a plastic one. Our pick skips it entirely, designed to sit at your dinner table instead.",
-          topPick: { name: "Stokke Tripp Trapp High Chair", price: "$279.20", oneLiner: "Solid wood high chair with adjustable heights, designed to sit at your dinner table. The cleanest solution to the plastic tray problem.", url: "https://amazon.com/dp/B0D5KLGSYS" },
+          topPick: { name: "Stokke Tripp Trapp High Chair", price: "$279.20", oneLiner: "Solid wood high chair with adjustable heights, designed to sit at your dinner table. The cleanest solution to the plastic tray problem.", url: "https://amzn.to/4cp7t7p" },
           alternatives: [
             { label: "tray fix", name: "Ahimsa Essential Compartments Tray", price: "$14.00", note: "If a tray is non-negotiable, stainless steel keeps your baby's food off the plastic.", url: "https://ahimsahome.com/products/essentials-stainless-steel-compartment-tray" }
           ]
@@ -372,24 +372,24 @@ export const PHASES: Phase[] = [
       { name: "On the Go", categories: [
         { name: "Car Seat Liner",
           why: "Most car seats are synthetic fabric your baby sits against on every trip. A cotton liner is the easy, affordable way to change that without replacing the seat.",
-          topPick: { name: "Niko Easy-Wash Children's Car Seat Cover & Liner", price: "$49.99", oneLiner: "Fully plastic-free car seats don't exist yet. An organic cotton liner is the best way to keep what touches your baby natural.", url: "https://amazon.com/dp/B07L8W5DRQ" },
+          topPick: { name: "Niko Easy-Wash Children's Car Seat Cover & Liner", price: "$49.99", oneLiner: "Fully plastic-free car seats don't exist yet. An organic cotton liner is the best way to keep what touches your baby natural.", url: "https://amzn.to/4e1iBbD" },
           alternatives: [
-            { label: "also good", name: "Little Unicorn Baby Car Seat Canopy", price: "$39.99", note: "Soft and breathable muslin fabric canopy cover.", url: "https://amazon.com/dp/B0CQ3W9JLQ" }
+            { label: "also good", name: "Little Unicorn Baby Car Seat Canopy", price: "$39.99", note: "Soft and breathable muslin fabric canopy cover.", url: "https://amzn.to/4sIvjQb" }
           ]
         },
         { name: "Stroller / Stroller Liner",
           why: "Most strollers are synthetic fabric from seat to hood. The AngelCab is the rare option built from natural materials — but an organic cotton liner gets you most of the way there.",
           topPick: { name: "AngelCab Stroller U3 Series Pacific Nature Wicker", price: "€1,847", oneLiner: "100% wool seat and hood, organic cotton inlay, natural wicker basket. Made in Germany with a 7-year guarantee.", url: "https://museumofmini.com/products/angelcab-stroller-u3-series-pacific-nature-wicker" },
           alternatives: [
-            { label: "practical", name: "Bumbleride Organic Cotton Infant Insert", price: "$85.00", note: "Already have a stroller? An organic cotton liner is the practical way to add a natural layer.", url: "https://amazon.com/dp/B0BMXZH1R4" },
-            { label: "also good", name: "Desert Breeze Sheepskin Stroller Liner", price: "$79.49", note: "Silky soft sheepskin for natural temperature regulation.", url: "https://amazon.com/dp/B06Y42BT5B" }
+            { label: "practical", name: "Bumbleride Organic Cotton Infant Insert", price: "$65", note: "Already have a stroller? An organic cotton liner is the practical way to add a natural layer.", url: "https://amzn.to/42lkFnK" },
+            { label: "also good", name: "Desert Breeze Sheepskin Stroller Liner", price: "$79.49", note: "Silky soft sheepskin for natural temperature regulation.", url: "https://amzn.to/42iIIDN" }
           ]
         },
         { name: "Baby Sunscreen",
           why: "Conventional sunscreens absorb chemical filters into the skin. For a baby whose skin absorbs everything more readily, a mineral zinc oxide sunscreen that stays on the surface is the cleaner choice.",
-          topPick: { name: "Thinkbaby SPF 50+ Baby Sunscreen", price: "$12.39", oneLiner: "Pure zinc oxide SPF 50. Mineral sunscreen in an aluminum tube with no plastic packaging.", url: "https://amazon.com/dp/B004CDQ73K" },
+          topPick: { name: "Thinkbaby SPF 50+ Baby Sunscreen", price: "$12.39", oneLiner: "Pure zinc oxide SPF 50. Mineral sunscreen in an aluminum tube with no plastic packaging.", url: "https://amzn.to/42kgCbf" },
           alternatives: [
-            { label: "also good", name: "Badger Mineral Baby Sunscreen SPF 40", price: "$17.99", note: "A lighter mineral formula for everyday use. Same zinc oxide standard.", url: "https://amazon.com/dp/B08Y99RBYN" }
+            { label: "also good", name: "Badger Mineral Baby Sunscreen SPF 40", price: "$17.99", note: "A lighter mineral formula for everyday use. Same zinc oxide standard.", url: "https://amzn.to/4sXee5q" }
           ]
         }
       ]}
