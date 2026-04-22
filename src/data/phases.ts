@@ -10,7 +10,7 @@ export const PHASES: Phase[] = [
       { name: "What You Drink", categories: [
         { name: "Water Filtration",
           why: "You're drinking more water now than ever before. It's one of the best things you can do for your body and your baby — so it's worth making sure what you're drinking is clean.",
-          topPick: { name: "Waterdrop 8 Stage Tankless Reverse Osmosis Filter", price: "$429", oneLiner: "The premium option. Removes microplastics, PFAS, and 82 other contaminants from your tap water.", url: "https://amzn.to/48UuYmj" },
+          topPick: { name: "Waterdrop 8 Stage Tankless Reverse Osmosis Filter", price: "$429", oneLiner: "8-stage reverse osmosis with no tank. Removes microplastics, PFAS, and 80+ contaminants from your tap water.", url: "https://amzn.to/48UuYmj" },
           alternatives: [
             { label: "also good", name: "Waterdrop Under-Sink Filtration", price: "$95", note: "If you want it out of sight. Comparable protection, half the footprint.", url: "https://amzn.to/41NoH8e" },
             { label: "budget", name: "LifeStraw Home Pitcher", price: "$32", note: "Our favorite budget pick.", url: "https://amzn.to/4sTXV9u" }
@@ -76,7 +76,7 @@ export const PHASES: Phase[] = [
           topPick: { name: "Quince Organic Cotton Maternity Maxi Dress", price: "$70", oneLiner: "100% organic cotton. Comfortable through every trimester — soft, breathable, nothing synthetic against your skin.", url: "https://quince.com/women/100-organic-cotton-maternity-tiered-maxi-dress" },
           alternatives: [
             { label: "also good", name: "Quince European Linen Maternity Top", price: "$50", note: "100% European linen. Breathable, naturally plastic-free.", url: "https://quince.com/women/100-european-linen-maternity-long-sleeve-shirt-2564" },
-            { label: "budget", name: "Joyaria Maternity Leggings", price: "$24.69", note: "Affordable organic cotton basics for everyday wear.", url: "https://amzn.to/4e2GvUk" }
+            { label: "budget", name: "Joyaria Maternity Leggings", price: "$24.69", note: "Affordable cotton-blend leggings for everyday wear.", url: "https://amzn.to/4e2GvUk" }
           ]
         }
       ]}
@@ -91,7 +91,7 @@ export const PHASES: Phase[] = [
       { name: "Sleep & Nursery", categories: [
         { name: "Crib Mattress",
           why: "Your baby spends more time on their mattress than anywhere else — and most mattresses are petroleum-based foam covered in synthetic fabric.",
-          topPick: { name: "Avocado Crib Mattress", price: "$359", oneLiner: "If you prefer cotton over latex on the surface. Same clean materials, different feel.", url: "https://amzn.to/4sJBJi6" },
+          topPick: { name: "Avocado Crib Mattress", price: "$359", oneLiner: "Organic cotton quilted top with natural latex core. No polyurethane foam, no synthetic materials in the sleep surface.", url: "https://amzn.to/4sJBJi6" },
           alternatives: [
             { label: "premium", name: "Savvy Baby Talalay Latex Mattress", price: "$749", note: "If budget allows, this is the gold standard. Talalay latex — softer, more consistent.", url: "https://savvyrest.com/product/the-savvy-baby-talalay/" }
           ]
@@ -188,7 +188,7 @@ export const PHASES: Phase[] = [
           why: "Baby clothing is against your newborn's skin every hour of every day. Most conventional baby clothes are polyester blends — synthetic fabrics that shed microfibers with every wash. Organic cotton is softer, safer, and better for skin that is more sensitive than it will ever be again.",
           topPick: { name: "Burt's Bees Baby Organic Cotton Bodysuits (5-pack)", price: "$30", oneLiner: "100% GOTS certified organic cotton. Five-pack of the only bodysuit your baby needs in the first weeks.", url: "https://amzn.to/4cjWcoN" },
           alternatives: [
-            { label: "budget", name: "Monica + Andy 3-Piece Knit Set", price: "$55", note: "The budget alternative. Organic cotton, long-sleeve, three to a pack.", url: "https://monicaandandy.com/products/baby-3-piece-knit-set" }
+            { label: "budget", name: "Monica + Andy 3-Piece Knit Set", price: "$55", note: "100% organic cotton knit set. A softer, more premium alternative for the early weeks.", url: "https://monicaandandy.com/products/baby-3-piece-knit-set" }
           ]
         }
       ]}
@@ -215,7 +215,7 @@ export const PHASES: Phase[] = [
         },
         { name: "Nursing Bra",
           why: "A nursing bra is against your skin and your baby's face more than almost anything else you'll wear. It's a tough category to get fully plastic-free, but these two get as close as currently possible.",
-          topPick: { name: "CAKYE 3 Piece Nursing Bra", price: "$60", oneLiner: "95% cotton", url: "https://amzn.to/41J2IPT" },
+          topPick: { name: "CAKYE 3 Piece Nursing Bra", price: "$60", oneLiner: "95% cotton with a touch of spandex for stretch. Three-pack for everyday rotation — soft, supportive, and mostly plastic-free.", url: "https://amzn.to/41J2IPT" },
           alternatives: [
             { label: "premium", name: "The Very Good Nursing Bra", price: "$82.00", note: "Pure 100% cotton with no elastane — the closest thing to a fully plastic-free nursing bra.", url: "https://theverygoodbra.com/products/cotton-nursing-bra" }
           ]
