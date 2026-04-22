@@ -328,7 +328,7 @@ export const PHASES: Phase[] = [
           why: "Activity gyms fly under the radar when it comes to plastic. They look natural on the surface, but most have plastic or synthetic materials hidden in the structure and attachments.",
           topPick: { name: "Snuggleme Play Gym", price: "$129.99", oneLiner: "100% cotton from the frame to the toys. Soft sounds, bright textures, and nothing synthetic for curious hands and mouths.", url: "https://snugglemeorganic.com/products/play-gym" },
           alternatives: [
-            { label: "also good", name: "Simre Kids Foldable Baby Gym", price: "$127.67", note: "Natural wood frame and toys, foldable for easy storage.", url: "https://simrekids.com" }
+            { label: "also good", name: "Simre Kids Foldable Baby Gym", price: "$127.67", note: "Natural wood frame and toys, foldable for easy storage.", url: "https://simrekids.com/products/personalizable-foldable-baby-gym-100-organic-cotton-padded-play-mat-hanging-toys-baby-activity-center-frame-activity-center-new-born-gift" }
           ]
         },
         { name: "Bath Toys",
@@ -411,9 +411,9 @@ export const PHASES: Phase[] = [
         },
         { name: "Vacuum with HEPA",
           why: "Microplastic particles and synthetic fibers settle on every surface in your home. A standard vacuum recirculates a portion back into the air. A true HEPA filter captures what gets picked up and keeps it there.",
-          topPick: { name: "Shark Stratos Upright Vacuum with DuoClean", price: "$299", oneLiner: "A full-size vacuum with a true HEPA filter. Captures microplastic particles and synthetic fibers instead of recirculating them.", url: "https://amazon.com/dp/B0B2VTZ432" },
+          topPick: { name: "Shark Stratos Upright Vacuum with DuoClean", price: "$299", oneLiner: "A full-size vacuum with a true HEPA filter. Captures microplastic particles and synthetic fibers instead of recirculating them.", url: "https://amzn.to/4trgDWY" },
           alternatives: [
-            { label: "compact", name: "AHNR Handheld HEPA Vacuum", price: "$36.98", note: "True HEPA filtration in a compact size for quick cleanups.", url: "https://amazon.com/dp/B0F6MYV92D" }
+            { label: "compact", name: "AHNR Handheld HEPA Vacuum", price: "$36.98", note: "True HEPA filtration in a compact size for quick cleanups.", url: "https://amzn.to/3ODpIgb" }
           ]
         },
         { name: "Laundry Detergent",
@@ -423,7 +423,7 @@ export const PHASES: Phase[] = [
         },
         { name: "Cleaning Supplies",
           why: "Most household cleaners are synthetic chemicals in plastic bottles. What you clean your floors and surfaces with ends up in the air and on everything your baby touches.",
-          topPick: { name: "Branch Basics Fragrance-Free All Purpose Cleaner", price: "$4.99", oneLiner: "Concentrated plant-based cleaner that replaces everything. No synthetic chemicals, no single-use plastic bottles.", url: "https://target.com" },
+          topPick: { name: "Branch Basics Fragrance-Free All Purpose Cleaner", price: "$4.99", oneLiner: "Concentrated plant-based cleaner that replaces everything. No synthetic chemicals, no single-use plastic bottles.", url: "https://www.target.com/p/branch-basics-fragrance-free-all-purpose-cleaner-16-fl-oz/-/A-93319104" },
           alternatives: [
             { label: "also good", name: "Blue Land Pop-Up Sponge", price: "$12", note: "A natural fiber sponge. No synthetic material scrubbing surfaces your baby will touch.", url: "https://blueland.com/products/pop-up-sponge" },
             { label: "also good", name: "Wool Shop 22in Lamb's Wool Mega Mop", price: "$38.91", note: "A wool mop. Natural fiber, no synthetic mop head shedding microfibers across your floors.", url: "https://homedepot.com/p/Wool-Shop-22-in-Lamb-s-Wool-Mega-Mop-HLSM518/202204919" }
