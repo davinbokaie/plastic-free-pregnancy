@@ -35,8 +35,7 @@ export default function Footer() {
       </div>
 
       <p className="font-body text-[11px] text-txt-faint leading-[1.6]">
-        This site contains affiliate links. Purchases made through them may earn us a small commission at no cost
-        to you.
+        As an Amazon Associate, we earn from qualifying purchases. This never influences our recommendations.
       </p>
     </footer>
   );

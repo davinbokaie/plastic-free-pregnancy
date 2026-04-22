@@ -9,8 +9,10 @@ export default function DisclosurePage() {
   return (
     <ArticleLayout title="Affiliate Disclosure" showSourcesNote={false}>
       <p>
-        Some links on this site are affiliate links. When you click a product link and make a purchase, we may
-        earn a small commission at no additional cost to you.
+        Plastic-Free Pregnancy is a participant in the Amazon Services LLC Associates Program, an affiliate
+        advertising program designed to provide a means for sites to earn advertising fees by advertising and
+        linking to Amazon.com. When you click a product link and make a purchase, we may earn a small commission
+        at no additional cost to you.
       </p>
 
       <p>

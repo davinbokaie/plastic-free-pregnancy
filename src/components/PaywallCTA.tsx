@@ -5,7 +5,6 @@ import { PAYHIP_CHECKOUT_URL } from "@/lib/checkout";
 const ITEMS = [
   { title: "The Guide", desc: "50+ product categories. The best plastic-free products on the market. One best-in-class pick + curated alternatives." },
   { title: "The Shopping Cart Companion", desc: "Your in-store guide to plastic-free shopping, always in your pocket." },
-  { title: "The Registry", desc: "Built for your baby shower. Share our top picks in one link." },
   { title: "Founding Membership", desc: "First access to a private community of mothers making the same choices." },
 ];
 
