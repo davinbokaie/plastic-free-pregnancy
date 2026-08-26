@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import MetaPixel from "@/components/MetaPixel";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -32,7 +33,10 @@ export default function RootLayout({
   `}
         </Script>
       </head>
-      <body style={{ fontFamily: "'Nunito', system-ui, sans-serif" }}>{children}</body>
+      <body style={{ fontFamily: "'Nunito', system-ui, sans-serif" }}>
+        <MetaPixel />
+        {children}
+      </body>
     </html>
   );
 }
