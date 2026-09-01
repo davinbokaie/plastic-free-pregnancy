@@ -9,7 +9,7 @@ import PaywallCTA from "@/components/PaywallCTA";
 import PhaseTile from "@/components/PhaseTile";
 import ArticlesSection from "@/components/ArticlesSection";
 import Footer from "@/components/Footer";
-import { trackMetaEvent } from "@/lib/meta-pixel";
+import { trackMetaEventWhenReady } from "@/lib/meta-pixel";
 
 export default function Home() {
   const [hasPaid, setHasPaid] = useState(false);
@@ -17,6 +17,11 @@ export default function Home() {
   const [licenseKey, setLicenseKey] = useState("");
   const [licenseError, setLicenseError] = useState(false);
   const [licenseSubmitting, setLicenseSubmitting] = useState(false);
+
+  // ViewContent: landing page only — fires once on mount (waits for fbq if needed)
+  useEffect(() => {
+    return trackMetaEventWhenReady("ViewContent");
+  }, []);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -28,10 +33,6 @@ export default function Home() {
     if (params.get("paid") === "true") {
       setHasPaid(true);
     }
-  }, []);
-
-  useEffect(() => {
-    trackMetaEvent("ViewContent");
   }, []);
 
   async function handleLicenseSubmit(e: React.FormEvent) {
