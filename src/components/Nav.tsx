@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { PAYHIP_CHECKOUT_URL } from "@/lib/checkout";
+import { trackMetaEvent } from "@/lib/meta-pixel";
 
 interface NavProps {
   hasPaid: boolean;
@@ -34,6 +35,7 @@ export default function Nav({ hasPaid }: NavProps) {
             <button
               type="button"
               onClick={() => {
+                trackMetaEvent("InitiateCheckout");
                 window.open(PAYHIP_CHECKOUT_URL, "_blank");
               }}
               className="font-serif-display text-[14px] text-white bg-sage px-5 py-2 rounded-lg transition-all duration-200 hover:bg-sage-dark"

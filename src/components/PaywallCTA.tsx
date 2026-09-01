@@ -1,6 +1,7 @@
 "use client";
 
 import { PAYHIP_CHECKOUT_URL } from "@/lib/checkout";
+import { trackMetaEvent } from "@/lib/meta-pixel";
 
 const ITEMS = [
   { title: "The Guide", desc: "50+ product categories. The best plastic-free products on the market. One best-in-class pick + curated alternatives." },
@@ -40,6 +41,7 @@ export default function PaywallCTA() {
       <button
         type="button"
         onClick={() => {
+          trackMetaEvent("InitiateCheckout");
           window.open(PAYHIP_CHECKOUT_URL, "_blank");
         }}
         onMouseEnter={(e) => {

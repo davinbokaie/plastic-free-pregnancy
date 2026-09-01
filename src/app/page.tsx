@@ -9,6 +9,7 @@ import PaywallCTA from "@/components/PaywallCTA";
 import PhaseTile from "@/components/PhaseTile";
 import ArticlesSection from "@/components/ArticlesSection";
 import Footer from "@/components/Footer";
+import { trackMetaEvent } from "@/lib/meta-pixel";
 
 export default function Home() {
   const [hasPaid, setHasPaid] = useState(false);
@@ -27,6 +28,10 @@ export default function Home() {
     if (params.get("paid") === "true") {
       setHasPaid(true);
     }
+  }, []);
+
+  useEffect(() => {
+    trackMetaEvent("ViewContent");
   }, []);
 
   async function handleLicenseSubmit(e: React.FormEvent) {
