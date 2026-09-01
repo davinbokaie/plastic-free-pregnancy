@@ -1,13 +1,23 @@
 "use client";
 
 import { PAYHIP_CHECKOUT_URL } from "@/lib/checkout";
-import { trackMetaEvent } from "@/lib/meta-pixel";
 
 const ITEMS = [
   { title: "The Guide", desc: "50+ product categories. The best plastic-free products on the market. One best-in-class pick + curated alternatives." },
   { title: "The Shopping Cart Companion", desc: "Your in-store guide to plastic-free shopping, always in your pocket." },
   { title: "Founding Membership", desc: "First access to a private community of mothers making the same choices." },
 ];
+
+function openPayhipCheckout() {
+  if (typeof window !== "undefined" && typeof window.fbq === "function") {
+    window.fbq("track", "InitiateCheckout");
+  }
+  // Brief delay so the pixel beacon can leave before opening Payhip.
+  // Still within the user-gesture window so the popup is not blocked.
+  window.setTimeout(() => {
+    window.open(PAYHIP_CHECKOUT_URL, "_blank");
+  }, 300);
+}
 
 export default function PaywallCTA() {
   return (
@@ -40,10 +50,7 @@ export default function PaywallCTA() {
 
       <button
         type="button"
-        onClick={() => {
-          trackMetaEvent("InitiateCheckout");
-          window.open(PAYHIP_CHECKOUT_URL, "_blank");
-        }}
+        onClick={openPayhipCheckout}
         onMouseEnter={(e) => {
           e.currentTarget.style.transform = "scale(1.04)";
           e.currentTarget.style.boxShadow = "0 6px 28px rgba(61, 53, 48, 0.35)";

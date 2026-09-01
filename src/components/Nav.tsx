@@ -3,10 +3,20 @@
 import Image from "next/image";
 import Link from "next/link";
 import { PAYHIP_CHECKOUT_URL } from "@/lib/checkout";
-import { trackMetaEvent } from "@/lib/meta-pixel";
 
 interface NavProps {
   hasPaid: boolean;
+}
+
+function openPayhipCheckout() {
+  if (typeof window !== "undefined" && typeof window.fbq === "function") {
+    window.fbq("track", "InitiateCheckout");
+  }
+  // Brief delay so the pixel beacon can leave before opening Payhip.
+  // Still within the user-gesture window so the popup is not blocked.
+  window.setTimeout(() => {
+    window.open(PAYHIP_CHECKOUT_URL, "_blank");
+  }, 300);
 }
 
 export default function Nav({ hasPaid }: NavProps) {
@@ -34,10 +44,7 @@ export default function Nav({ hasPaid }: NavProps) {
           ) : (
             <button
               type="button"
-              onClick={() => {
-                trackMetaEvent("InitiateCheckout");
-                window.open(PAYHIP_CHECKOUT_URL, "_blank");
-              }}
+              onClick={openPayhipCheckout}
               className="font-serif-display text-[14px] text-white bg-sage px-5 py-2 rounded-lg transition-all duration-200 hover:bg-sage-dark"
             >
               Get the Guide
