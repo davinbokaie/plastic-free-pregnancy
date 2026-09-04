@@ -10,6 +10,7 @@ import PhaseTile from "@/components/PhaseTile";
 import ArticlesSection from "@/components/ArticlesSection";
 import Footer from "@/components/Footer";
 import { trackMetaEventWhenReady } from "@/lib/meta-pixel";
+import { trackTikTokEventWhenReady } from "@/lib/tiktok-pixel";
 
 export default function Home() {
   const [hasPaid, setHasPaid] = useState(false);
@@ -18,9 +19,14 @@ export default function Home() {
   const [licenseError, setLicenseError] = useState(false);
   const [licenseSubmitting, setLicenseSubmitting] = useState(false);
 
-  // ViewContent: landing page only — fires once on mount (waits for fbq if needed)
+  // ViewContent: landing page only — Meta + TikTok fire together on mount
   useEffect(() => {
-    return trackMetaEventWhenReady("ViewContent");
+    const cleanupMeta = trackMetaEventWhenReady("ViewContent");
+    const cleanupTikTok = trackTikTokEventWhenReady("ViewContent");
+    return () => {
+      cleanupMeta();
+      cleanupTikTok();
+    };
   }, []);
 
   useEffect(() => {

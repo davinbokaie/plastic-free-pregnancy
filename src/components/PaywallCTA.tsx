@@ -12,7 +12,10 @@ function openPayhipCheckout() {
   if (typeof window !== "undefined" && typeof window.fbq === "function") {
     window.fbq("track", "InitiateCheckout");
   }
-  // Brief delay so the pixel beacon can leave before opening Payhip.
+  if (typeof window !== "undefined" && window.ttq) {
+    window.ttq.track("InitiateCheckout");
+  }
+  // Brief delay so pixel beacons can leave before opening Payhip.
   // Still within the user-gesture window so the popup is not blocked.
   window.setTimeout(() => {
     window.open(PAYHIP_CHECKOUT_URL, "_blank");
